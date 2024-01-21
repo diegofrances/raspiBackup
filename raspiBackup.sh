@@ -3769,7 +3769,7 @@ function getFsType() { # file or path
 
 }
 
-# sfdisk sanity check
+# sfdisk sanity check to make sure last partition does not extend device size
 
 #						label: dos
 #						label-id: 0x3c3f4bdb
@@ -3786,16 +3786,29 @@ function checkSfdiskOK() { # device, e.g. /dev/mmcblk0
 	local rc
 	local deviceSize=$(blockdev --getsz $1)
 
+	logCommand "sfdisk -d $1"
+
 	logItem "DeviceSize: $deviceSize"
 
-	local sourceValues=( $(awk '/(1|2) :/ { v=$4 $6; gsub(","," ",v); printf "%s",v }' <<< "$(sfdisk -d $1)") )
+	local sourceValues=( $(awk '/[0-9]+ :/ { v=$4 $6; gsub(","," ",v); printf "%s",v }' <<< "$(sfdisk -d $1)") )
 
-	if [[ ${#sourceValues[@]} != 4 ]]; then
+	local s=${#sourceValues[@]}
+	logItem "Size: $s"
+
+	if (( $s < 4 )); then
 		assertionFailed $LINENO "Expected at least 2 partitions on $1"
 	fi
 
-	local usedSize=$(( ${sourceValues[2]} + ${sourceValues[3]} ))
+	local sm1=$((s-1))
+	local sm2=$((s-2))
+
+	logItem "${sourceValues[$sm2]} - ${sourceValues[$sm1]}"
+
+	local usedSize=$(( ${sourceValues[$sm2]} + ${sourceValues[$sm1]} ))
 	logItem "usedSize: $usedSize"
+
+	local freeSize=$(( $deviceSize - $usedSize ))
+	logItem "freeSize: $freeSize"
 
 	rc=$(( ( $deviceSize / 512 ) > $usedSize ))
 
