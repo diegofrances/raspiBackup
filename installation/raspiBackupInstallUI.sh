@@ -870,6 +870,8 @@ MSG_ZH[$DESCRIPTION_STARTSTOP]="${NL}备份前，重要服务会被停止，备�
 
 DESCRIPTION_STARTSTOP_SEQUENCE=$((SCNT++))
 MSG_EN[$DESCRIPTION_STARTSTOP_SEQUENCE]="${NL}Select step by step every service which should be stopped first, second, third and so on and confirm every single service with <Ok> until there is no service any more. \
+MSG_IT[$DESCRIPTION_STARTSTOP_SEQUENCE]=${NL}Selezionare i servizi uno alla volta poiché devono essere fermati prima del backup e confermare ogni servizio individuale con <Conferma> fino a quando nessun altro servizio viene visualizzato. L'ordine corrente è visualizzato dall'alto verso il basso. Troverai maggiori dettagli su https://www.linux-tips-and-tricks.de/de/faq#a18.
+MSG_ES[$DESCRIPTION_STARTSTOP_SEQUENCE]=${NL}Seleccione los servicios uno por uno ya que deben detenerse antes de la copia de seguridad y confirme cada servicio individual con <Confirmar> hasta que no se muestre ningún otro servicio. El orden actual se muestra de arriba a abajo. Puede encontrar más detalles en https://www.linux-tips-and-tricks.de/de/faq#a18.
 Actual sequence is displayed top down. \
 For further details see https://www.linux-tips-and-tricks.de/en/faq#a18."
 MSG_DE[$DESCRIPTION_STARTSTOP_SEQUENCE]="${NL}Wähle der Reihe nach die Services aus wie sie vor dem Backup gestoppt werden sollen und bestätige jeden einzelnen Service mit <Bestätigen> bis keine Services mehr angezeigt werden. \
@@ -887,6 +889,8 @@ ${NL}详情见 https://www.linux-tips-and-tricks.de/en/faq#a18."
 
 DESCRIPTION_STARTSTOP_SERVICES=$((SCNT++))
 MSG_EN[$DESCRIPTION_STARTSTOP_SERVICES]="${NL}Select all services in sequence how they should be stopped before the backup starts. \
+MSG_IT[$DESCRIPTION_STARTSTOP_SERVICES]=${NL}Seleziona tutti i servizi in sequenza come devono essere fermati prima che inizi il backup. La sequenza corrente viene visualizzata. Saranno avviati di nuovo in sequenza inversa quando il backup sarà terminato.
+MSG_ES[$DESCRIPTION_STARTSTOP_SERVICES]=${NL}Seleccione todos los servicios en secuencia cómo deben detenerse antes de que comience la copia de seguridad. La secuencia actual se muestra. Se iniciarán nuevamente en secuencia inversa cuando la copia de seguridad haya finalizado.
 Current sequence is displayed.\
 They will be started in reverse sequence again when the backup finished."
 MSG_DE[$DESCRIPTION_STARTSTOP_SERVICES]="${NL}Wähle alle wichtigen Services aus die vor dem Backup gestoppt werden sollen. \
@@ -903,6 +907,8 @@ MSG_ZH[$DESCRIPTION_STARTSTOP_SERVICES]="${NL}按顺序选择备份开始前应�
 
 DESCRIPTION_PARTITIONS=$((SCNT++))
 MSG_EN[$DESCRIPTION_PARTITIONS]="${NL}Select all partitions which should be included in the backup. \
+MSG_IT[$DESCRIPTION_PARTITIONS]=${NL}Seleziona tutte le partizioni che devono essere incluse nel backup. Nota: Le prime due partizioni devono essere sempre selezionate.
+MSG_ES[$DESCRIPTION_PARTITIONS]=${NL}Seleccione todas las particiones que deben incluirse en la copia de seguridad. Nota: Las dos primeras particiones deben seleccionarse siempre.
 ${NL}${NL}Note: The first two partitions have to be selected all the time."
 MSG_DE[$DESCRIPTION_PARTITIONS]="${NL}Wähle alle Partitionen aus die im Backup enthalten sein sollen. \
 ${NL}${NL}Hinweis: Die ersten beiden Partitionen müssen immer ausgewählt werden."
@@ -915,6 +921,8 @@ ${NL}${NL}注意:前两个分区总会默认被选中."
 
 DESCRIPTION_LANGUAGE=$((SCNT++))
 MSG_EN[$DESCRIPTION_LANGUAGE]="${NL}$RASPIBACKUP_NAME and this installer support following languages as of now. Default language is the system language.\
+MSG_IT[$DESCRIPTION_LANGUAGE]=${NL}$RASPIBACKUP_NAME e questo programma di installazione supportano attualmente le seguenti lingue. La lingua predefinita è la lingua di sistema. Qualsiasi aiuto per aggiungere un'altra lingua è il benvenuto.
+MSG_ES[$DESCRIPTION_LANGUAGE]=${NL}$RASPIBACKUP_NAME y este instalador actualmente admiten los siguientes idiomas. El idioma predeterminado es el idioma del sistema. Cualquier ayuda para agregar otro idioma es bienvenida.
 ${NL}${NL}Any help to add another language is welcome."
 MSG_DE[$DESCRIPTION_LANGUAGE]="${NL}$RASPIBACKUP_NAME und dieser Installer unterstützen momentan folgende Sprachen. Standardsprache ist die Systemsprache.\
 ${NL}${NL}Jede Hilfe eine weitere Sprache dazuzubringen ist herzlich willkommen."
@@ -5282,4 +5290,3 @@ if (( $MODE_UNATTENDED )); then
 else
 	uiInstall
 fi
-
