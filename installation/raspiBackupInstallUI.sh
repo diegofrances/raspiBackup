@@ -541,6 +541,8 @@ MSG_DE[$MSG_SAMPLEEXTENSION_UNINSTALL_FAILED]="${MSG_PRF}0023E: Beispielserweite
 MSG_FI[$MSG_SAMPLEEXTENSION_UNINSTALL_FAILED]="${MSG_PRF}0023E: Näytelisäosien asennuksen poisto epäonnistui. %1"
 MSG_FR[$MSG_SAMPLEEXTENSION_UNINSTALL_FAILED]="${MSG_PRF}0023E: Échec de la désinstallation de l'extension de l'exemple. %1"
 MSG_ZH[$MSG_SAMPLEEXTENSION_UNINSTALL_FAILED]="${MSG_PRF}0023E: 扩展卸载失败. %1"
+MSG_IT[$MSG_SAMPLEEXTENSION_UNINSTALL_FAILED]="${MSG_PRF}0023E: Disinstallazione dell'estensione di esempio non riuscita. %1"
+MSG_ES[$MSG_SAMPLEEXTENSION_UNINSTALL_FAILED]="${MSG_PRF}0023E: Fallo en la desinstalación de la extensión de muestra. %1"
 
 MSG_SAMPLEEXTENSION_UNINSTALL_SUCCESS=$((SCNT++))
 MSG_EN[$MSG_SAMPLEEXTENSION_UNINSTALL_SUCCESS]="${MSG_PRF}0024I: Sample extensions successfully deleted."
@@ -548,6 +550,8 @@ MSG_DE[$MSG_SAMPLEEXTENSION_UNINSTALL_SUCCESS]="${MSG_PRF}0024I: Beispielserweit
 MSG_FI[$MSG_SAMPLEEXTENSION_UNINSTALL_SUCCESS]="${MSG_PRF}0024I: Näytelisäosat poistettiin onnistuneesti."
 MSG_FR[$MSG_SAMPLEEXTENSION_UNINSTALL_SUCCESS]="${MSG_PRF}0024I: Exemples d'extensions supprimés avec succès."
 MSG_ZH[$MSG_SAMPLEEXTENSION_UNINSTALL_SUCCESS]="${MSG_PRF}0024I: 扩展已被删除."
+MSG_IT[$MSG_SAMPLEEXTENSION_UNINSTALL_SUCCESS]="${MSG_PRF}0024I: Estensioni di esempio eliminate con successo."
+MSG_ES[$MSG_SAMPLEEXTENSION_UNINSTALL_SUCCESS]="${MSG_PRF}0024I: Extensiones de muestra eliminadas con éxito."
 
 MSG_UNINSTALLING_CRON_TEMPLATE=$((SCNT++))
 MSG_EN[$MSG_UNINSTALLING_CRON_TEMPLATE]="${MSG_PRF}0025I: Deleting cron file %1."
@@ -555,6 +559,8 @@ MSG_DE[$MSG_UNINSTALLING_CRON_TEMPLATE]="${MSG_PRF}0025I: Crondatei %1 wird gel�
 MSG_FI[$MSG_UNINSTALLING_CRON_TEMPLATE]="${MSG_PRF}0025I: Poistetaan cron-tiedosto %1."
 MSG_FR[$MSG_UNINSTALLING_CRON_TEMPLATE]="${MSG_PRF}0025I: Suppression du fichier cron %1."
 MSG_ZH[$MSG_UNINSTALLING_CRON_TEMPLATE]="${MSG_PRF}0025I: 删除cron文件 %1."
+MSG_IT[$MSG_UNINSTALLING_CRON_TEMPLATE]="${MSG_PRF}0025I: Eliminazione del file cron %1."
+MSG_ES[$MSG_UNINSTALLING_CRON_TEMPLATE]="${MSG_PRF}0025I: Eliminando archivo cron %1."
 
 MSG_UPDATING_CRON=$((SCNT++))
 MSG_EN[$MSG_UPDATING_CRON]="${MSG_PRF}0026I: Updating cron configuration in %1."
@@ -562,6 +568,8 @@ MSG_DE[$MSG_UPDATING_CRON]="${MSG_PRF}0026I: Cron Konfigurationsdatei %1 wird an
 MSG_FI[$MSG_UPDATING_CRON]="${MSG_PRF}0026I: Päivitetään cron-asetukset kohteessa %1."
 MSG_FR[$MSG_UPDATING_CRON]="${MSG_PRF}0026I: Le fichier de configuration Cron %1 a été mis à jour."
 MSG_ZH[$MSG_UPDATING_CRON]="${MSG_PRF}0026I: 更新cron文件 %1."
+MSG_IT[$MSG_UPDATING_CRON]="${MSG_PRF}0026I: Aggiornamento della configurazione di cron in %1."
+MSG_ES[$MSG_UPDATING_CRON]="${MSG_PRF}0026I: Actualizando la configuración de cron en %1."
 
 MSG_MISSING_DIRECTORY=$((SCNT++))
 MSG_EN[$MSG_MISSING_DIRECTORY]="${MSG_PRF}0027E: Missing required directory %1."
@@ -569,6 +577,8 @@ MSG_DE[$MSG_MISSING_DIRECTORY]="${MSG_PRF}0027E: Erforderliches Verzeichnis %1 e
 MSG_FI[$MSG_MISSING_DIRECTORY]="${MSG_PRF}0027E: Vaadittu hakemisto %1 puuttuu."
 MSG_FR[$MSG_MISSING_DIRECTORY]="${MSG_PRF}0027E: Le répertoire requis %1 n'existe pas."
 MSG_ZH[$MSG_MISSING_DIRECTORY]="${MSG_PRF}0027E: 缺少必要的路径 %1."
+MSG_IT[$MSG_MISSING_DIRECTORY]="${MSG_PRF}0027E: Directory richiesta %1 mancante."
+MSG_ES[$MSG_MISSING_DIRECTORY]="${MSG_PRF}0027E: Falta el directorio requerido %1."
 
 MSG_CODE_UPDATED=$((SCNT++))
 MSG_EN[$MSG_CODE_UPDATED]="${MSG_PRF}0028I: Updated %1 with latest available release."
@@ -576,26 +586,55 @@ MSG_DE[$MSG_CODE_UPDATED]="${MSG_PRF}0028I: %1 wurde mit dem letzen aktuellen Re
 MSG_FI[$MSG_CODE_UPDATED]="${MSG_PRF}0028I: %1 päivitetty viimeisimpään julkaisuun."
 MSG_FR[$MSG_CODE_UPDATED]="${MSG_PRF}0028I: %1 a été remplacé par la version la plus récente."
 MSG_ZH[$MSG_CODE_UPDATED]="${MSG_PRF}0028I: 更新 %1 到最新版本."
+MSG_IT[$MSG_CODE_UPDATED]="${MSG_PRF}0028I: %1 aggiornato con l'ultima versione disponibile."
+MSG_ES[$MSG_CODE_UPDATED]="${MSG_PRF}0028I: %1 actualizado con la última versión disponible."
 
 MSG_INSTALLING_SYSTEMD_TEMPLATE=$((SCNT++))
 MSG_EN[$MSG_INSTALLING_SYSTEMD_TEMPLATE]="${MSG_PRF}0029I: Creating systemd file %1."
 MSG_DE[$MSG_INSTALLING_SYSTEMD_TEMPLATE]="${MSG_PRF}0029I: Systemddatei %1 wird erstellt."
+MSG_FI[$MSG_INSTALLING_SYSTEMD_TEMPLATE]="${MSG_PRF}0029I: Luodaan systemd-tiedosto %1."
+MSG_FR[$MSG_INSTALLING_SYSTEMD_TEMPLATE]="${MSG_PRF}0029I: Création du fichier systemd %1."
+MSG_ZH[$MSG_INSTALLING_SYSTEMD_TEMPLATE]="${MSG_PRF}0029I: 创建 systemd 文件 %1."
+MSG_IT[$MSG_INSTALLING_SYSTEMD_TEMPLATE]="${MSG_PRF}0029I: Creazione del file systemd %1."
+MSG_ES[$MSG_INSTALLING_SYSTEMD_TEMPLATE]="${MSG_PRF}0029I: Creando archivo systemd %1."
 
 MSG_UNINSTALLING_SYSTEMD_TEMPLATE=$((SCNT++))
 MSG_EN[$MSG_UNINSTALLING_SYSTEMD_TEMPLATE]="${MSG_PRF}0030I: Deleting systemd file %1."
 MSG_DE[$MSG_UNINSTALLING_SYSTEMD_TEMPLATE]="${MSG_PRF}0030I: Systemddatei %1 wird gelöscht."
+MSG_FI[$MSG_UNINSTALLING_SYSTEMD_TEMPLATE]="${MSG_PRF}0030I: Poistetaan systemd-tiedosto %1."
+MSG_FR[$MSG_UNINSTALLING_SYSTEMD_TEMPLATE]="${MSG_PRF}0030I: Suppression du fichier systemd %1."
+MSG_ZH[$MSG_UNINSTALLING_SYSTEMD_TEMPLATE]="${MSG_PRF}0030I: 删除 systemd 文件 %1."
+MSG_IT[$MSG_UNINSTALLING_SYSTEMD_TEMPLATE]="${MSG_PRF}0030I: Eliminazione del file systemd %1."
+MSG_ES[$MSG_UNINSTALLING_SYSTEMD_TEMPLATE]="${MSG_PRF}0030I: Eliminando archivo systemd %1."
 
 MSG_UPDATING_SYSTEMD=$((SCNT++))
 MSG_EN[$MSG_UPDATING_SYSTEMD]="${MSG_PRF}0031I: Updating systemd configuration in %1."
 MSG_DE[$MSG_UPDATING_SYSTEMD]="${MSG_PRF}0031I: Systemd Konfigurationsdatei %1 wird angepasst."
+MSG_FI[$MSG_UPDATING_SYSTEMD]="${MSG_PRF}0031I: Päivitetään systemd-konfiguraatio kohteessa %1."
+MSG_FR[$MSG_UPDATING_SYSTEMD]="${MSG_PRF}0031I: Le fichier de configuration systemd %1 a été mis à jour."
+MSG_ZH[$MSG_UPDATING_SYSTEMD]="${MSG_PRF}0031I: 更新 systemd 配置文件 %1."
+MSG_IT[$MSG_UPDATING_SYSTEMD]="${MSG_PRF}0031I: Aggiornamento della configurazione systemd in %1."
+MSG_ES[$MSG_UPDATING_SYSTEMD]="${MSG_PRF}0031I: Actualizando configuración de systemd en %1."
 
 MSG_SYSTEMD_ENABLED=$((SCNT++))
 MSG_EN[$MSG_SYSTEMD_ENABLED]="${MSG_PRF}0032I: Systemd enabled."
 MSG_DE[$MSG_SYSTEMD_ENABLED]="${MSG_PRF}0032I: Systemd eingeschaltet."
+MSG_FI[$MSG_SYSTEMD_ENABLED]="${MSG_PRF}0032I: Systemd käytössä."
+MSG
+
+_FR[$MSG_SYSTEMD_ENABLED]="${MSG_PRF}0032I: Systemd activé."
+MSG_ZH[$MSG_SYSTEMD_ENABLED]="${MSG_PRF}0032I: 已启用 systemd."
+MSG_IT[$MSG_SYSTEMD_ENABLED]="${MSG_PRF}0032I: Systemd abilitato."
+MSG_ES[$MSG_SYSTEMD_ENABLED]="${MSG_PRF}0032I: Systemd habilitado."
 
 MSG_SYSTEMD_DISABLED=$((SCNT++))
 MSG_EN[$MSG_SYSTEMD_DISABLED]="${MSG_PRF}0033I: $RASPIBACKUP_NAME systemd timer disabled."
 MSG_DE[$MSG_SYSTEMD_DISABLED]="${MSG_PRF}0033I: $RASPIBACKUP_NAME systemd timer ausgeschaltet."
+MSG_FI[$MSG_SYSTEMD_DISABLED]="${MSG_PRF}0033I: $RASPIBACKUP_NAME systemd-ajastin poistettu käytöstä."
+MSG_FR[$MSG_SYSTEMD_DISABLED]="${MSG_PRF}0033I: Minuterie systemd de $RASPIBACKUP_NAME désactivée."
+MSG_ZH[$MSG_SYSTEMD_DISABLED]="${MSG_PRF}0033I: $RASPIBACKUP_NAME systemd 定时器已禁用."
+MSG_IT[$MSG_SYSTEMD_DISABLED]="${MSG_PRF}0033I: Timer systemd di $RASPIBACKUP_NAME disabilitato."
+MSG_ES[$MSG_SYSTEMD_DISABLED]="${MSG_PRF}0033I: Temporizador systemd de $RASPIBACKUP_NAME deshabilitado."
 
 MSG_TITLE=$((SCNT++))
 MSG_EN[$MSG_TITLE]="$RASPIBACKUP_NAME Installation and Configuration Tool V${VERSION}"
@@ -603,6 +642,8 @@ MSG_DE[$MSG_TITLE]="$RASPIBACKUP_NAME Installations- und Konfigurations Tool V${
 MSG_FI[$MSG_TITLE]="$RASPIBACKUP_NAME Asennus- ja määritystyökalu V${VERSION}"
 MSG_FR[$MSG_TITLE]="$RASPIBACKUP_NAME Outil d'installation et de configuration V${VERSION}"
 MSG_ZH[$MSG_TITLE]="$RASPIBACKUP_NAME 安装和设置工具 版本V${VERSION}"
+MSG_IT[$MSG_TITLE]="$RASPIBACKUP_NAME Strumento di installazione e configurazione V${VERSION}"
+MSG_ES[$MSG_TITLE]="$RASPIBACKUP_NAME Herramienta de instalación y configuración V${VERSION}"
 
 BUTTON_FINISH=$((SCNT++))
 MSG_EN[$BUTTON_FINISH]="Finish"
@@ -610,6 +651,8 @@ MSG_DE[$BUTTON_FINISH]="Beenden"
 MSG_FI[$BUTTON_FINISH]="Lopeta"
 MSG_FR[$BUTTON_FINISH]="Terminer"
 MSG_ZH[$BUTTON_FINISH]="完成"
+MSG_IT[$BUTTON_FINISH]="Finire"
+MSG_ES[$BUTTON_FINISH]="Terminar"
 
 BUTTON_SELECT=$((SCNT++))
 MSG_EN[$BUTTON_SELECT]="Select"
@@ -617,6 +660,8 @@ MSG_DE[$BUTTON_SELECT]="Auswahl"
 MSG_FI[$BUTTON_SELECT]="Valitse"
 MSG_FR[$BUTTON_SELECT]="Valider"
 MSG_ZH[$BUTTON_SELECT]="选择"
+MSG_IT[$BUTTON_SELECT]="Selezionare"
+MSG_ES[$BUTTON_SELECT]="Seleccionar"
 
 BUTTON_BACK=$((SCNT++))
 MSG_EN[$BUTTON_BACK]="Back"
@@ -624,6 +669,8 @@ MSG_DE[$BUTTON_BACK]="Zurück"
 MSG_FI[$BUTTON_BACK]="Takaisin"
 MSG_FR[$BUTTON_BACK]="Retour"
 MSG_ZH[$BUTTON_BACK]="返回"
+MSG_IT[$BUTTON_BACK]="Indietro"
+MSG_ES[$BUTTON_BACK]="Atrás"
 
 SELECT_TIME=$((SCNT++))
 MSG_EN[$SELECT_TIME]="Enter time of backup in format hh:mm"
@@ -631,6 +678,8 @@ MSG_DE[$SELECT_TIME]="Die Backupzeit im Format hh:mm eingeben"
 MSG_FI[$SELECT_TIME]="Syötä varmuuskopioinnin kellonaika muodossa hh:mm"
 MSG_FR[$SELECT_TIME]="Saisissez l'heure de la sauvegarde au format hh:mm"
 MSG_ZH[$SELECT_TIME]="输入以时间命名备份的格式 hh:mm"
+MSG_IT[$SELECT_TIME]="Inserire l'ora del backup nel formato hh:mm"
+MSG_ES[$SELECT_TIME]="Introduzca la hora de la copia de seguridad en formato hh:mm"
 
 BUTTON_CANCEL=$((SCNT++))
 MSG_EN[$BUTTON_CANCEL]="Cancel"
@@ -638,6 +687,8 @@ MSG_DE[$BUTTON_CANCEL]="Abbruch"
 MSG_FI[$BUTTON_CANCEL]="Peruuta"
 MSG_FR[$BUTTON_CANCEL]="Annuler"
 MSG_ZH[$BUTTON_CANCEL]="取消"
+MSG_IT[$BUTTON_CANCEL]="Annulla"
+MSG_ES[$BUTTON_CANCEL]="Cancelar"
 
 BUTTON_OK=$((SCNT++))
 MSG_EN[$BUTTON_OK]="Ok"
