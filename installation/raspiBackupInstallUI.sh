@@ -388,6 +388,8 @@ MSG_DE[$MSG_CHMOD_FAILED]="${MSG_PRF}0006E: chmod von %1 nicht möglich."
 MSG_FI[$MSG_CHMOD_FAILED]="${MSG_PRF}0006E: chmod %1 epäonnistui."
 MSG_FR[$MSG_CHMOD_FAILED]="${MSG_PRF}0006E: chmod de %1 a échoué."
 MSG_ZH[$MSG_CHMOD_FAILED]="${MSG_PRF}0006E: chmod %1 失败."
+MSG_IT[$MSG_CHMOD_FAILED]="${MSG_PRF}0006E: chmod di %1 fallito."
+MSG_ES[$MSG_CHMOD_FAILED]="${MSG_PRF}0006E: chmod de %1 falló."
 
 MSG_MOVE_FAILED=$((SCNT++))
 MSG_EN[$MSG_MOVE_FAILED]="${MSG_PRF}0007E: mv of %1 failed."
@@ -395,6 +397,8 @@ MSG_DE[$MSG_MOVE_FAILED]="${MSG_PRF}0007E: mv von %1 nicht möglich."
 MSG_FI[$MSG_MOVE_FAILED]="${MSG_PRF}0007E: mv %1 epäonnistui."
 MSG_FR[$MSG_MOVE_FAILED]="${MSG_PRF}0007E: Impossible de faire mv à partir de %1."
 MSG_ZH[$MSG_MOVE_FAILED]="${MSG_PRF}0007E: mv %1 失败."
+MSG_EN[$MSG_MOVE_FAILED]="${MSG_PRF}0007E: mv of %1 failed."
+MSG_IT[$MSG_MOVE_FAILED]="${MSG_PRF}0007E: mv di %1 fallito."
 
 MSG_CLEANUP=$((SCNT++))
 MSG_EN[$MSG_CLEANUP]="${MSG_PRF}0008I: Cleaning up..."
@@ -402,6 +406,8 @@ MSG_DE[$MSG_CLEANUP]="${MSG_PRF}0008I: Räume auf..."
 MSG_FI[$MSG_CLEANUP]="${MSG_PRF}0008I: Puhdistetaan..."
 MSG_FR[$MSG_CLEANUP]="${MSG_PRF}0008I: Nettoyer..."
 MSG_ZH[$MSG_CLEANUP]="${MSG_PRF}0008I: 正在清理..."
+MSG_IT[$MSG_CLEANUP]="${MSG_PRF}0008I: Pulizia..."
+MSG_ES[$MSG_CLEANUP]="${MSG_PRF}0008I: Limpiando..."
 
 MSG_INSTALLATION_FINISHED=$((SCNT++))
 MSG_EN[$MSG_INSTALLATION_FINISHED]="${MSG_PRF}0009I: Installation of %1 finished successfully."
@@ -409,6 +415,8 @@ MSG_DE[$MSG_INSTALLATION_FINISHED]="${MSG_PRF}0009I: Installation von %1 erfolgr
 MSG_FI[$MSG_INSTALLATION_FINISHED]="${MSG_PRF}0009I: Kohde %1 asennettu onnistuneesti."
 MSG_FR[$MSG_INSTALLATION_FINISHED]="${MSG_PRF}0009I: L'installation de %1 s'est terminée avec succès."
 MSG_ZH[$MSG_INSTALLATION_FINISHED]="${MSG_PRF}0009I: 安装 %1 成功."
+MSG_IT[$MSG_INSTALLATION_FINISHED]="${MSG_PRF}0009I: Installazione di %1 completata con successo."
+MSG_ES[$MSG_INSTALLATION_FINISHED]="${MSG_PRF}0009I: Instalación de %1 finalizada con éxito."
 
 MSG_UPDATING_CONFIG=$((SCNT++))
 MSG_EN[$MSG_UPDATING_CONFIG]="${MSG_PRF}0010I: Updating configuration in %1."
@@ -416,6 +424,8 @@ MSG_DE[$MSG_UPDATING_CONFIG]="${MSG_PRF}0010I: Konfigurationsdatei %1 wird angep
 MSG_FI[$MSG_UPDATING_CONFIG]="${MSG_PRF}0010I: Päivitetään asetukset tiedostossa %1."
 MSG_FR[$MSG_UPDATING_CONFIG]="${MSG_PRF}0010I: Mise à jour de la configuration dans %1."
 MSG_ZH[$MSG_UPDATING_CONFIG]="${MSG_PRF}0010I: 更新设置 %1."
+MSG_IT[$MSG_UPDATING_CONFIG]="${MSG_PRF}0010I: Aggiornamento configurazione in %1."
+MSG_ES[$MSG_UPDATING_CONFIG]="${MSG_PRF}0010I: Actualizando configuración en %1."
 
 MSG_DELETE_FILE=$((SCNT++))
 MSG_EN[$MSG_DELETE_FILE]="${MSG_PRF}0011I: Deleting %1..."
@@ -423,6 +433,8 @@ MSG_DE[$MSG_DELETE_FILE]="${MSG_PRF}0011I: Lösche %1..."
 MSG_FI[$MSG_DELETE_FILE]="${MSG_PRF}0011I: Poistetaan %1..."
 MSG_FR[$MSG_DELETE_FILE]="${MSG_PRF}0011I: Suppression de %1..."
 MSG_ZH[$MSG_DELETE_FILE]="${MSG_PRF}0011I: 删除 %1..."
+MSG_IT[$MSG_DELETE_FILE]="${MSG_PRF}0011I: Eliminazione %1..."
+MSG_ES[$MSG_DELETE_FILE]="${MSG_PRF}0011I: Eliminando %1..."
 
 MSG_UNINSTALL_FINISHED=$((SCNT++))
 MSG_EN[$MSG_UNINSTALL_FINISHED]="${MSG_PRF}0012I: Uninstall of %1 finished successfully."
@@ -430,6 +442,8 @@ MSG_DE[$MSG_UNINSTALL_FINISHED]="${MSG_PRF}0012I: Deinstallation von %1 erfolgre
 MSG_FI[$MSG_UNINSTALL_FINISHED]="${MSG_PRF}0012I: Kohteen %1 asennus poistettu onnistuneesti."
 MSG_FR[$MSG_UNINSTALL_FINISHED]="${MSG_PRF}0012I: La désinstallation de %1 s'est terminée avec succès."
 MSG_ZH[$MSG_UNINSTALL_FINISHED]="${MSG_PRF}0012I: 卸载 %1 成功."
+MSG_IT[$MSG_UNINSTALL_FINISHED]="${MSG_PRF}0012I: Disinstallazione di %1 completata con successo."
+MSG_ES[$MSG_UNINSTALL_FINISHED]="${MSG_PRF}0012I: Desinstalación de %1 finalizada con éxito."
 
 MSG_UNINSTALL_FAILED=$((SCNT++))
 MSG_EN[$MSG_UNINSTALL_FAILED]="${MSG_PRF}0013E: Delete of %1 failed."
@@ -437,6 +451,8 @@ MSG_DE[$MSG_UNINSTALL_FAILED]="${MSG_PRF}0013E: Löschen von %1 fehlerhaft beend
 MSG_FI[$MSG_UNINSTALL_FAILED]="${MSG_PRF}0013E: Kohteen %1 poisto epäonnistui."
 MSG_FR[$MSG_UNINSTALL_FAILED]="${MSG_PRF}0013E: Échec de la suppression de %1."
 MSG_ZH[$MSG_UNINSTALL_FAILED]="${MSG_PRF}0013E: 删除 %1 失败."
+MSG_IT[$MSG_UNINSTALL_FAILED]="${MSG_PRF}0013E: Eliminazione di %1 fallita."
+MSG_ES[$MSG_UNINSTALL_FAILED]="${MSG_PRF}0013E: Eliminación de %1 fallida."
 
 MSG_DOWNLOADING_BETA=$((SCNT++))
 MSG_EN[$MSG_DOWNLOADING_BETA]="${MSG_PRF}0014I: Downloading %1 beta..."
@@ -444,6 +460,8 @@ MSG_DE[$MSG_DOWNLOADING_BETA]="${MSG_PRF}0014I: %1 beta wird aus dem Netz gelade
 MSG_FI[$MSG_DOWNLOADING_BETA]="${MSG_PRF}0014I: Ladataan kohteen %1 beta-versiota..."
 MSG_FR[$MSG_DOWNLOADING_BETA]="${MSG_PRF}0014I: Téléchargement de %1 bêta..."
 MSG_ZH[$MSG_DOWNLOADING_BETA]="${MSG_PRF}0014I: 下载 %1 beta版本..."
+MSG_IT[$MSG_DOWNLOADING_BETA]="${MSG_PRF}0014I: Scaricamento beta di %1..."
+MSG_ES[$MSG_DOWNLOADING_BETA]="${MSG_PRF}0014I: Descargando beta de %1..."
 
 MSG_CODE_INSTALLED=$((SCNT++))
 MSG_EN[$MSG_CODE_INSTALLED]="${MSG_PRF}0015I: Created %1."
@@ -451,6 +469,8 @@ MSG_DE[$MSG_CODE_INSTALLED]="${MSG_PRF}0015I: %1 wurde erstellt."
 MSG_FI[$MSG_CODE_INSTALLED]="${MSG_PRF}0015I: Kohde %1 luotu."
 MSG_FR[$MSG_CODE_INSTALLED]="${MSG_PRF}0015I: %1 a été créé."
 MSG_ZH[$MSG_CODE_INSTALLED]="${MSG_PRF}0015I: 创建 %1."
+MSG_IT[$MSG_CODE_INSTALLED]="${MSG_PRF}0015I: Creato %1."
+MSG_ES[$MSG_CODE_INSTALLED]="${MSG_PRF}0015I: Creado %1."
 
 MSG_NOT_INSTALLED=$((SCNT++))
 MSG_EN[$MSG_NOT_INSTALLED]="${MSG_PRF}0016I: %1 not installed."
@@ -458,6 +478,8 @@ MSG_DE[$MSG_NOT_INSTALLED]="${MSG_PRF}0016I: %1 nicht installiert."
 MSG_FI[$MSG_NOT_INSTALLED]="${MSG_PRF}0016I: %1 ei ole asennettu."
 MSG_FR[$MSG_NOT_INSTALLED]="${MSG_PRF}0016I: %1 non installé."
 MSG_ZH[$MSG_NOT_INSTALLED]="${MSG_PRF}0016I: %1 未安装."
+MSG_IT[$MSG_NOT_INSTALLED]="${MSG_PRF}0016I: %1 non installato."
+MSG_ES[$MSG_NOT_INSTALLED]="${MSG_PRF}0016I: %1 no instalado."
 
 MSG_CHOWN_FAILED=$((SCNT++))
 MSG_EN[$MSG_CHOWN_FAILED]="${MSG_PRF}0017E: chown of %1 failed."
@@ -465,6 +487,8 @@ MSG_DE[$MSG_CHOWN_FAILED]="${MSG_PRF}0017E: chown von %1 nicht möglich."
 MSG_FI[$MSG_CHOWN_FAILED]="${MSG_PRF}0017E: chown %1 epäonnistui."
 MSG_FR[$MSG_CHOWN_FAILED]="${MSG_PRF}0017E: Impossible d'exécuter chown %1."
 MSG_ZH[$MSG_CHOWN_FAILED]="${MSG_PRF}0017E: chown of %1 失败."
+MSG_IT[$MSG_CHOWN_FAILED]="${MSG_PRF}0017E: chown di %1 fallito."
+MSG_ES[$MSG_CHOWN_FAILED]="${MSG_PRF}0017E: chown de %1 falló."
 
 MSG_SAMPLEEXTENSION_INSTALL_FAILED=$((SCNT++))
 MSG_EN[$MSG_SAMPLEEXTENSION_INSTALL_FAILED]="${MSG_PRF}0018E: Sample extension installation failed. %1"
@@ -472,6 +496,8 @@ MSG_DE[$MSG_SAMPLEEXTENSION_INSTALL_FAILED]="${MSG_PRF}0018E: Beispielserweiteru
 MSG_FI[$MSG_SAMPLEEXTENSION_INSTALL_FAILED]="${MSG_PRF}0018E: Näytelisäosien asennus epäonnistui. %1"
 MSG_FR[$MSG_SAMPLEEXTENSION_INSTALL_FAILED]="${MSG_PRF}0018E: L'installation de l'exemple d'extension a échoué. %1"
 MSG_ZH[$MSG_SAMPLEEXTENSION_INSTALL_FAILED]="${MSG_PRF}0018E: 扩展安装失败. %1"
+MSG_IT[$MSG_SAMPLEEXTENSION_INSTALL_FAILED]="${MSG_PRF}0018E: Installazione dell'estensione di esempio fallita. %1"
+MSG_ES[$MSG_SAMPLEEXTENSION_INSTALL_FAILED]="${MSG_PRF}0018E: Instalación de la extensión de muestra fallida. %1"
 
 MSG_SAMPLEEXTENSION_INSTALL_SUCCESS=$((SCNT++))
 MSG_EN[$MSG_SAMPLEEXTENSION_INSTALL_SUCCESS]="${MSG_PRF}0019I: Sample extensions successfully installed and enabled."
@@ -479,6 +505,8 @@ MSG_DE[$MSG_SAMPLEEXTENSION_INSTALL_SUCCESS]="${MSG_PRF}0019I: Beispielserweiter
 MSG_FI[$MSG_SAMPLEEXTENSION_INSTALL_SUCCESS]="${MSG_PRF}0019I: Näytelisäosat asennettu ja otettu käyttöön onnistuneesti."
 MSG_FR[$MSG_SAMPLEEXTENSION_INSTALL_SUCCESS]="${MSG_PRF}0019I: Les exemples d'extensions ont été installés et activés avec succès."
 MSG_ZH[$MSG_SAMPLEEXTENSION_INSTALL_SUCCESS]="${MSG_PRF}0019I: 扩展安装成功并激活."
+MSG_IT[$MSG_SAMPLEEXTENSION_INSTALL_SUCCESS]="${MSG_PRF}0019I: Estensioni di esempio installate e abilitate con successo."
+MSG_ES[$MSG_SAMPLEEXTENSION_INSTALL_SUCCESS]="${MSG_PRF}0019I: Extensiones de muestra instaladas y habilitadas con éxito."
 
 MSG_INSTALLING_CRON_TEMPLATE=$((SCNT++))
 MSG_EN[$MSG_INSTALLING_CRON_TEMPLATE]="${MSG_PRF}0020I: Creating cron file %1."
@@ -486,6 +514,8 @@ MSG_DE[$MSG_INSTALLING_CRON_TEMPLATE]="${MSG_PRF}0020I: Crondatei %1 wird erstel
 MSG_FI[$MSG_INSTALLING_CRON_TEMPLATE]="${MSG_PRF}0020I: Luodaan cron-tiedosto %1."
 MSG_FR[$MSG_INSTALLING_CRON_TEMPLATE]="${MSG_PRF}0020I: Création du fichier cron %1."
 MSG_ZH[$MSG_INSTALLING_CRON_TEMPLATE]="${MSG_PRF}0020I: 创建cron文件 %1."
+MSG_IT[$MSG_INSTALLING_CRON_TEMPLATE]="${MSG_PRF}0020I: Creazione del file cron %1."
+MSG_ES[$MSG_INSTALLING_CRON_TEMPLATE]="${MSG_PRF}0020I: Creando archivo cron %1."
 
 MSG_NO_INTERNET_CONNECTION_FOUND=$((SCNT++))
 MSG_EN[$MSG_NO_INTERNET_CONNECTION_FOUND]="${MSG_PRF}0021E: Unable to connect to $MYHOMEDOMAIN. wget RC: %1"
@@ -493,6 +523,8 @@ MSG_DE[$MSG_NO_INTERNET_CONNECTION_FOUND]="${MSG_PRF}0021E: Es kann nicht auf $M
 MSG_FI[$MSG_NO_INTERNET_CONNECTION_FOUND]="${MSG_PRF}0021E: Yhdistäminen kohteeseen $MYHOMEDOMAIN epäonnistui. wget RC: %1"
 MSG_FR[$MSG_NO_INTERNET_CONNECTION_FOUND]="${MSG_PRF}0021E: Impossible de se connecter à $MYHOMEDOMAIN. Code erreur wget : %1"
 MSG_ZH[$MSG_NO_INTERNET_CONNECTION_FOUND]="${MSG_PRF}0021E: 连接 $MYHOMEDOMAIN 失败. wget RC: %1"
+MSG_IT[$MSG_NO_INTERNET_CONNECTION_FOUND]="${MSG_PRF}0021E: Impossibile connettersi a $MYHOMEDOMAIN. wget RC: %1"
+MSG_ES[$MSG_NO_INTERNET_CONNECTION_FOUND]="${MSG_PRF}0021E: No se puede conectar a $MYHOMEDOMAIN. wget RC: %1"
 
 MSG_CHECK_INTERNET_CONNECTION=$((SCNT++))
 MSG_EN[$MSG_CHECK_INTERNET_CONNECTION]="${MSG_PRF}0022I: Checking internet connection."
@@ -500,6 +532,8 @@ MSG_DE[$MSG_CHECK_INTERNET_CONNECTION]="${MSG_PRF}0022I: Teste Internetverbindun
 MSG_FI[$MSG_CHECK_INTERNET_CONNECTION]="${MSG_PRF}0022I: Tarkistetaan verkkoyhteyttä."
 MSG_FR[$MSG_CHECK_INTERNET_CONNECTION]="${MSG_PRF}0022I: Vérification de la connexion Internet."
 MSG_ZH[$MSG_CHECK_INTERNET_CONNECTION]="${MSG_PRF}0022I: 检查网络连接."
+MSG_IT[$MSG_CHECK_INTERNET_CONNECTION]="${MSG_PRF}0022I: Controllo della connessione a Internet."
+MSG_ES[$MSG_CHECK_INTERNET_CONNECTION]="${MSG_PRF}0022I: Comprobando conexión a Internet."
 
 MSG_SAMPLEEXTENSION_UNINSTALL_FAILED=$((SCNT++))
 MSG_EN[$MSG_SAMPLEEXTENSION_UNINSTALL_FAILED]="${MSG_PRF}0023E: Sample extension uninstall failed. %1"
