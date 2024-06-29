@@ -694,6 +694,8 @@ MSG_DE[$BUTTON_OK]="Bestätigen"
 MSG_FI[$BUTTON_OK]="OK"
 MSG_FR[$BUTTON_OK]="Confirmer"
 MSG_ZH[$BUTTON_OK]="确认"
+MSG_IT[$BUTTON_OK]="Ok"
+MSG_ES[$BUTTON_OK]="Aceptar"
 
 MSG_QUESTION_UPDATE_CONFIG=$((SCNT++))
 MSG_EN[$MSG_QUESTION_UPDATE_CONFIG]="Do you want to save the updated $RASPIBACKUP_NAME configuration now?"
@@ -701,6 +703,8 @@ MSG_DE[$MSG_QUESTION_UPDATE_CONFIG]="Soll die geänderte Konfiguration von $RASP
 MSG_FI[$MSG_QUESTION_UPDATE_CONFIG]="Haluatko tallentaa päivitetyt $RASPIBACKUP_NAME-asetukset nyt?"
 MSG_FR[$MSG_QUESTION_UPDATE_CONFIG]="La configuration de $RASPIBACKUP_NAME a été modifiée, Enregistrer maintenant?"
 MSG_ZH[$MSG_QUESTION_UPDATE_CONFIG]="是否立刻更新 $RASPIBACKUP_NAME 设置?"
+MSG_IT[$MSG_QUESTION_UPDATE_CONFIG]="Vuoi salvare la configurazione aggiornata di $RASPIBACKUP_NAME ora?"
+MSG_ES[$MSG_QUESTION_UPDATE_CONFIG]="¿Desea guardar la configuración actualizada de $RASPIBACKUP_NAME ahora?"
 
 MSG_QUESTION_IGNORE_MISSING_STARTSTOP=$((SCNT++))
 MSG_EN[$MSG_QUESTION_IGNORE_MISSING_STARTSTOP]="There are no services stopped before starting the backup.${NL}WARNING${NL}Inconsistent backups may be created with $RASPIBACKUP_NAME.${NL}Are you sure?"
@@ -708,6 +712,8 @@ MSG_DE[$MSG_QUESTION_IGNORE_MISSING_STARTSTOP]="Es werden keine Services vor dem
 MSG_FI[$MSG_QUESTION_IGNORE_MISSING_STARTSTOP]="Palveluita ei ole valittu pysäytettäväksi ennen varmuuskopiointia.${NL}VAROITUS${NL}Tämä voi johtaa $RASPIBACKUP_NAME-varmuuskopioiden epäyhtenäisyyteen.${NL}Oletko varma?"
 MSG_FR[$MSG_QUESTION_IGNORE_MISSING_STARTSTOP]="Aucun service ne sera arrêté avant le démarrage de la sauvegarde.${NL}VAROITUS${NL}Cela peut entraîner des incohérences avec $RASPIBACKUP_NAME.${NL}Etes-vous sûre?"
 MSG_ZH[$MSG_QUESTION_IGNORE_MISSING_STARTSTOP]="备份前没有停止任何服务.${NL}警告${NL}可能会创建一个与$RASPIBACKUP_NAME名称不一致的备份.${NL}是否继续?"
+MSG_IT[$MSG_QUESTION_IGNORE_MISSING_STARTSTOP]="Non ci sono servizi arrestati prima di avviare il backup.${NL}ATTENZIONE${NL}Possono essere creati backup incoerenti con $RASPIBACKUP_NAME.${NL}Sei sicuro?"
+MSG_ES[$MSG_QUESTION_IGNORE_MISSING_STARTSTOP]="No se han detenido servicios antes de iniciar la copia de seguridad.${NL}ADVERTENCIA${NL}Pueden crearse copias de seguridad inconsistentes con $RASPIBACKUP_NAME.${NL}¿Estás seguro?"
 
 MSG_QUESTION_UPDATE_CRON=$((SCNT++))
 MSG_EN[$MSG_QUESTION_UPDATE_CRON]="Do you want to save the updated cron settings for $RASPIBACKUP_NAME now?"
@@ -715,10 +721,14 @@ MSG_DE[$MSG_QUESTION_UPDATE_CRON]="Soll die geänderte cron Konfiguration für $
 MSG_FI[$MSG_QUESTION_UPDATE_CRON]="Haluatko tallentaa nyt päivitetyt cron-asetukset kohteelle $RASPIBACKUP_NAME?"
 MSG_FR[$MSG_QUESTION_UPDATE_CRON]="Voulez-vous enregistrer les paramètres cron mis à jour pour $RASPIBACKUP_NAME maintenant ?"
 MSG_ZH[$MSG_QUESTION_UPDATE_CRON]="是否保存$RASPIBACKUP_NAME 更新的cron设置?"
+MSG_IT[$MSG_QUESTION_UPDATE_CRON]="Vuoi salvare le impostazioni di cron aggiornate per $RASPIBACKUP_NAME ora?"
+MSG_ES[$MSG_QUESTION_UPDATE_CRON]="¿Desea guardar las configuraciones de cron actualizadas para $RASPIBACKUP_NAME ahora?"
 
 MSG_QUESTION_UPDATE_SYSTEMD=$((SCNT++))
 MSG_EN[$MSG_QUESTION_UPDATE_SYSTEMD]="Do you want to save the updated systemd settings for $RASPIBACKUP_NAME now?"
 MSG_DE[$MSG_QUESTION_UPDATE_SYSTEMD]="Soll die geänderte systemd Konfiguration für $RASPIBACKUP_NAME jetzt gespeichert werden?"
+MSG_IT[$MSG_QUESTION_UPDATE_SYSTEMD]="Vuoi salvare le impostazioni systemd aggiornate per $RASPIBACKUP_NAME ora?"
+MSG_ES[$MSG_QUESTION_UPDATE_SYSTEMD]="¿Desea guardar las configuraciones de systemd actualizadas para $RASPIBACKUP_NAME ahora?"
 
 MSG_SEQUENCE_OK=$((SCNT++))
 MSG_EN[$MSG_SEQUENCE_OK]="Stopcommands for services will be executed in following sequence. Startcommands will be executed in reverse sequence. Sequence OK?"
@@ -726,6 +736,8 @@ MSG_DE[$MSG_SEQUENCE_OK]="Stopbefehle für die Services werden in folgender Reih
 MSG_FI[$MSG_SEQUENCE_OK]="Palvelut pysäytetään seuraavassa järjestyksessä ja ne käynnistetään uudelleen käänteisessä järjestyksessä. Onko järjestys OK?"
 MSG_FR[$MSG_SEQUENCE_OK]="Les commandes d'arrêt pour les services seront exécutées dans l'ordre suivant. Les commandes de démarrage seront exécutées dans l'ordre inverse. d'accord?"
 MSG_ZH[$MSG_SEQUENCE_OK]="停止服务命令将按以下顺序停止，启动服务命令按反序执行 OK?"
+MSG_IT[$MSG_SEQUENCE_OK]="I comandi di arresto per i servizi saranno eseguiti nella seguente sequenza. I comandi di avvio saranno eseguiti in sequenza inversa. Sequenza OK?"
+MSG_ES[$MSG_SEQUENCE_OK]="Los comandos de parada para los servicios se ejecutarán en la siguiente secuencia. Los comandos de inicio se ejecutarán en secuencia inversa. ¿Secuencia OK?"
 
 BUTTON_YES=$((SCNT++))
 MSG_EN[$BUTTON_YES]="Yes"
@@ -733,6 +745,8 @@ MSG_DE[$BUTTON_YES]="Ja"
 MSG_FI[$BUTTON_YES]="Kyllä"
 MSG_FR[$BUTTON_YES]="Oui"
 MSG_ZH[$BUTTON_YES]="Yes"
+MSG_IT[$BUTTON_YES]="Sì"
+MSG_ES[$BUTTON_YES]="Sí"
 
 BUTTON_NO=$((SCNT++))
 MSG_EN[$BUTTON_NO]="No"
@@ -740,6 +754,8 @@ MSG_DE[$BUTTON_NO]="Nein"
 MSG_FI[$BUTTON_NO]="Ei"
 MSG_FR[$BUTTON_NO]="Non"
 MSG_ZH[$BUTTON_NO]="No"
+MSG_IT[$BUTTON_NO]="No"
+MSG_ES[$BUTTON_NO]="No"
 
 MSG_QUESTION_UNINSTALL=$((SCNT++))
 MSG_EN[$MSG_QUESTION_UNINSTALL]="Are you sure to uninstall $RASPIBACKUP_NAME ?"
@@ -747,6 +763,8 @@ MSG_DE[$MSG_QUESTION_UNINSTALL]="Soll $RASPIBACKUP_NAME wirklich deinstalliert w
 MSG_FI[$MSG_QUESTION_UNINSTALL]="Haluatko varmasti poistaa koko kohteen $RASPIBACKUP_NAME ?"
 MSG_FR[$MSG_QUESTION_UNINSTALL]="Êtes-vous sûr de vouloir désinstaller $RASPIBACKUP_NAME ?"
 MSG_ZH[$MSG_QUESTION_UNINSTALL]="确认卸载 $RASPIBACKUP_NAME 么?"
+MSG_IT[$MSG_QUESTION_UNINSTALL]="Sei sicuro di voler disinstallare $RASPIBACKUP_NAME?"
+MSG_ES[$MSG_QUESTION_UNINSTALL]="¿Estás seguro de desinstalar $RASPIBACKUP_NAME?"
 
 MSG_SCRIPT_NOT_INSTALLED=$((SCNT++))
 MSG_EN[$MSG_SCRIPT_NOT_INSTALLED]="$RASPIBACKUP_NAME not installed."
@@ -754,6 +772,8 @@ MSG_DE[$MSG_SCRIPT_NOT_INSTALLED]="$RASPIBACKUP_NAME ist nicht installiert"
 MSG_FI[$MSG_SCRIPT_NOT_INSTALLED]="$RASPIBACKUP_NAME ei ole asennettuna."
 MSG_FR[$MSG_SCRIPT_NOT_INSTALLED]="$RASPIBACKUP_NAME n'est pas installé."
 MSG_ZH[$MSG_SCRIPT_NOT_INSTALLED]="$RASPIBACKUP_NAME 尚未安装."
+MSG_IT[$MSG_SCRIPT_NOT_INSTALLED]="$RASPIBACKUP_NAME non installato."
+MSG_ES[$MSG_SCRIPT_NOT_INSTALLED]="$RASPIBACKUP_NAME no está instalado."
 
 MSG_TIMER_NA=$((SCNT++))
 MSG_EN[$MSG_TIMER_NA]="Weekly backup disabled."
@@ -761,6 +781,8 @@ MSG_DE[$MSG_TIMER_NA]="Wöchentliches Backup ist ausgeschaltet."
 MSG_FI[$MSG_TIMER_NA]="Viikoittainen varmuuskopiointi ei ole käytössä."
 MSG_FR[$MSG_TIMER_NA]="La sauvegarde hebdomadaire est désactivée."
 MSG_ZH[$MSG_TIMER_NA]="每周备份已禁用."
+MSG_IT[$MSG_TIMER_NA]="Backup settimanale disabilitato."
+MSG_ES[$MSG_TIMER_NA]="La copia de seguridad semanal está deshabilitada."
 
 MSG_CONFIG_NOT_INSTALLED=$((SCNT++))
 MSG_EN[$MSG_CONFIG_NOT_INSTALLED]="No configuration found."
@@ -768,6 +790,8 @@ MSG_DE[$MSG_CONFIG_NOT_INSTALLED]="Keine Konfiguration gefunden."
 MSG_FI[$MSG_CONFIG_NOT_INSTALLED]="Asetuksia ei löytynyt."
 MSG_FR[$MSG_CONFIG_NOT_INSTALLED]="Aucune configuration trouvée."
 MSG_ZH[$MSG_CONFIG_NOT_INSTALLED]="未找到配置文件."
+MSG_IT[$MSG_CONFIG_NOT_INSTALLED]="Nessuna configurazione trovata."
+MSG_ES[$MSG_CONFIG_NOT_INSTALLED]="No se encontró configuración."
 
 MSG_CRON_NOT_INSTALLED=$((SCNT++))
 MSG_EN[$MSG_CRON_NOT_INSTALLED]="No cron configuration found."
@@ -775,6 +799,8 @@ MSG_DE[$MSG_CRON_NOT_INSTALLED]="Keine cron Konfiguration gefunden."
 MSG_FI[$MSG_CRON_NOT_INSTALLED]="Cron-asetuksia ei löytynyt."
 MSG_FR[$MSG_CRON_NOT_INSTALLED]="Aucune configuration cron trouvée.."
 MSG_ZH[$MSG_CRON_NOT_INSTALLED]="Cron未找到."
+MSG_IT[$MSG_CRON_NOT_INSTALLED]="Nessuna configurazione cron trovata."
+MSG_ES[$MSG_CRON_NOT_INSTALLED]="No se encontró configuración de cron."
 
 MSG_NO_UPDATE_AVAILABLE=$((SCNT++))
 MSG_EN[$MSG_NO_UPDATE_AVAILABLE]="(No update available)"
@@ -782,6 +808,8 @@ MSG_DE[$MSG_NO_UPDATE_AVAILABLE]="(Kein Update verfügbar)"
 MSG_FI[$MSG_NO_UPDATE_AVAILABLE]="(Päivitystä ei ole saatavilla)"
 MSG_FR[$MSG_NO_UPDATE_AVAILABLE]="(Pas de mise a jour disponible)"
 MSG_ZH[$MSG_NO_UPDATE_AVAILABLE]="(没有可用更新)"
+MSG_IT[$MSG_NO_UPDATE_AVAILABLE]="(Nessun aggiornamento disponibile)"
+MSG_ES[$MSG_NO_UPDATE_AVAILABLE]="(No hay actualizaciones disponibles)"
 
 MSG_NO_EXTENSIONS_FOUND=$((SCNT++))
 MSG_EN[$MSG_NO_EXTENSIONS_FOUND]="No extensions installed."
@@ -789,6 +817,8 @@ MSG_DE[$MSG_NO_EXTENSIONS_FOUND]="Keine Erweiterungen installiert."
 MSG_FI[$MSG_NO_EXTENSIONS_FOUND]="Lisäosia ei ole asennettu."
 MSG_FR[$MSG_NO_EXTENSIONS_FOUND]="Aucune extension installée."
 MSG_ZH[$MSG_NO_EXTENSIONS_FOUND]="尚未安装扩展."
+MSG_IT[$MSG_NO_EXTENSIONS_FOUND]="Nessuna estensione installata."
+MSG_ES[$MSG_NO_EXTENSIONS_FOUND]="No hay extensiones instaladas."
 
 MSG_EXTENSIONS_ALREADY_INSTALLED=$((SCNT++))
 MSG_EN[$MSG_EXTENSIONS_ALREADY_INSTALLED]="Extensions already installed."
@@ -796,12 +826,16 @@ MSG_DE[$MSG_EXTENSIONS_ALREADY_INSTALLED]="Extensions sind bereits installiert."
 MSG_FI[$MSG_EXTENSIONS_ALREADY_INSTALLED]="Lisäosat ovat jo asennettuna."
 MSG_FR[$MSG_EXTENSIONS_ALREADY_INSTALLED]="Les extensions sont déjà installées."
 MSG_ZH[$MSG_EXTENSIONS_ALREADY_INSTALLED]="扩展已安装."
+MSG_IT[$MSG_EXTENSIONS_ALREADY_INSTALLED]="Estensioni già installate."
+MSG_ES[$MSG_EXTENSIONS_ALREADY_INSTALLED]="Extensiones ya instaladas."
 
 MSG_SCRIPT_ALREADY_INSTALLED=$((SCNT++))
 MSG_EN[$MSG_SCRIPT_ALREADY_INSTALLED]="$RASPIBACKUP_NAME already installed.${NL}Do you want to reinstall $RASPIBACKUP_NAME ?"
 MSG_DE[$MSG_SCRIPT_ALREADY_INSTALLED]="$RASPIBACKUP_NAME ist bereits installiert.${NL}Soll die bestehende Installation überschrieben werden ?"
 MSG_FI[$MSG_SCRIPT_ALREADY_INSTALLED]="$RASPIBACKUP_NAME on jo asennettu.${NL} Haluatko uudelleenasentaa kohteen $RASPIBACKUP_NAME ?"
 MSG_FR[$MSG_SCRIPT_ALREADY_INSTALLED]="$RASPIBACKUP_NAME est déjà installé.${NL}Voulez-vous écraser l'installation existante ?"
+MSG_IT[$MSG_SCRIPT_ALREADY_INSTALLED]="$RASPIBACKUP_NAME è già installato.${NL}Vuoi reinstallare $RASPIBACKUP_NAME?"
+MSG_ES[$MSG_SCRIPT_ALREADY_INSTALLED]="$RASPIBACKUP_NAME ya está instalado.${NL}¿Quieres reinstalar $RASPIBACKUP_NAME?"
 
 MSG_DOWNLOADING_PROPERTYFILE=$((SCNT++))
 MSG_EN[$MSG_DOWNLOADING_PROPERTYFILE]="Downloading version information."
@@ -809,6 +843,8 @@ MSG_DE[$MSG_DOWNLOADING_PROPERTYFILE]="Versionsinformationen werden runtergelade
 MSG_FI[$MSG_DOWNLOADING_PROPERTYFILE]="Ladataan version tietoja."
 MSG_FR[$MSG_DOWNLOADING_PROPERTYFILE]="Les informations de version seront téléchargées."
 MSG_ZH[$MSG_DOWNLOADING_PROPERTYFILE]="下载版本信息."
+MSG_IT[$MSG_DOWNLOADING_PROPERTYFILE]="Scaricamento informazioni di versione."
+MSG_ES[$MSG_DOWNLOADING_PROPERTYFILE]="Descargando información de versión."
 
 MSG_INVALID_KEEP=$((SCNT++))
 MSG_EN[$MSG_INVALID_KEEP]="Invalid number %1 entered. Number has to be between 1 and 52."
@@ -816,6 +852,8 @@ MSG_DE[$MSG_INVALID_KEEP]="Ungültige Zahl %1 eingegeben. Sie muss zwischen 1 un
 MSG_FI[$MSG_INVALID_KEEP]="Epäkelpo numero %1 syötetty. Numeron tulee olla 1:n ja 52:n väliltä."
 MSG_FR[$MSG_INVALID_KEEP]="Nombre non valide %1 saisi. Il doit être compris entre 1 et 52."
 MSG_ZH[$MSG_INVALID_KEEP]="输入的 %1 无效. 数字必须在1和52之间."
+MSG_IT[$MSG_INVALID_KEEP]="Numero non valido %1 inserito. Il numero deve essere compreso tra 1 e 52."
+MSG_ES[$MSG_INVALID_KEEP]="Número inválido %1 ingresado. El número debe estar entre 1 y 52."
 
 MSG_INVALID_KEEP_NUMBER_COUNT=$((SCNT++))
 MSG_EN[$MSG_INVALID_KEEP_NUMBER_COUNT]="Insert one number only."
@@ -823,6 +861,8 @@ MSG_DE[$MSG_INVALID_KEEP_NUMBER_COUNT]="Nur eine Zahl eingeben."
 MSG_FI[$MSG_INVALID_KEEP_NUMBER_COUNT]="Syötä vain yksi numero."
 MSG_FR[$MSG_INVALID_KEEP_NUMBER_COUNT]="Entrez un seul numéro."
 MSG_ZH[$MSG_INVALID_KEEP_NUMBER_COUNT]="请仅插入一个数字."
+MSG_IT[$MSG_INVALID_KEEP_NUMBER_COUNT]="Inserisci solo un numero."
+MSG_ES[$MSG_INVALID_KEEP_NUMBER_COUNT]="Ingrese solo un número."
 
 MSG_INVALID_SMART=$((SCNT++))
 MSG_EN[$MSG_INVALID_SMART]="Invalid number %1 entered. Number has to be >= 0."
@@ -830,6 +870,8 @@ MSG_DE[$MSG_INVALID_SMART]="Ungültige Zahl %1 eingegeben. Sie muss >= 0 sein."
 MSG_FI[$MSG_INVALID_SMART]="Epäkelpo numero %1 syötetty. Numeron tulee olla >= 0."
 MSG_FR[$MSG_INVALID_SMART]="Nombre non valide %1 saisi. Il doit être >= 0."
 MSG_ZH[$MSG_INVALID_SMART]="输入的 %1 无效. 数字必须>= 0."
+MSG_IT[$MSG_INVALID_SMART]="Numero non valido %1 inserito. Il numero deve essere >= 0."
+MSG_ES[$MSG_INVALID_SMART]="Número inválido %1 ingresado. El número debe ser >= 0."
 
 MSG_INVALID_SMART_NUMBER_COUNT=$((SCNT++))
 MSG_EN[$MSG_INVALID_SMART_NUMBER_COUNT]="Expect four numbers separated by spaces: daily, weekly, monthly and yearly backups."
@@ -837,6 +879,8 @@ MSG_DE[$MSG_INVALID_SMART_NUMBER_COUNT]="Vier durch Leerzeichen getrennte Zahlen
 MSG_FI[$MSG_INVALID_SMART_NUMBER_COUNT]="Vaaditaan neljä välilyönnein erotettua numeroa: päivittäinen, viikoittainen, kuukausittainen ja vuosittainen varmuuskopiointien lukumäärä"
 MSG_FR[$MSG_INVALID_SMART_NUMBER_COUNT]="Quatre nombres séparés par des espaces sont attendus : sauvegardes quotidiennes, hebdomadaires, mensuelles et annuelles."
 MSG_ZH[$MSG_INVALID_SMART_NUMBER_COUNT]="四个分隔数字分别代表：按日、按周、按月、按年的备份"
+MSG_IT[$MSG_INVALID_SMART_NUMBER_COUNT]="Attesi quattro numeri separati da spazi: backup giornalieri, settimanali, mensili e annuali."
+MSG_ES[$MSG_INVALID_SMART_NUMBER_COUNT]="Se esperan cuatro números separados por espacios: copias de seguridad diarias, semanales, mensuales y anuales."
 
 MSG_INVALID_KEEP_NUMBER_COUNT=$((SCNT++))
 MSG_EN[$MSG_INVALID_KEEP_NUMBER_COUNT]="Enter one single number only."
@@ -844,6 +888,8 @@ MSG_DE[$MSG_INVALID_KEEP_NUMBER_COUNT]="Nur eine einzige Zahl eingeben."
 MSG_FI[$MSG_INVALID_KEEP_NUMBER_COUNT]="Syötä vain yksi numero."
 MSG_FR[$MSG_INVALID_KEEP_NUMBER_COUNT]="Entrez un seul numéro."
 MSG_ZH[$MSG_INVALID_KEEP_NUMBER_COUNT]="请仅输入一个数字."
+MSG_IT[$MSG_INVALID_KEEP_NUMBER_COUNT]="Inserisci solo un numero."
+MSG_ES[$MSG_INVALID_KEEP_NUMBER_COUNT]="Ingrese solo un número."
 
 MSG_INVALID_TIME=$((SCNT++))
 MSG_EN[$MSG_INVALID_TIME]="Invalid time '%1'. Input has to be in format hh:mm and 0<=hh<24 and 0<=mm<60."
@@ -851,6 +897,8 @@ MSG_DE[$MSG_INVALID_TIME]="Ungültige Zeit '%1'. Die Eingabe muss im Format hh:m
 MSG_FI[$MSG_INVALID_TIME]="Epäkelpo kellonaika '%1'. Ajan tulee olla muodossa hh:mm ja 0<=hh<24 sekä 0<=mm<60."
 MSG_FR[$MSG_INVALID_TIME]="Heure non valide '%1'. L'entrée doit être au format hh:mm et 0<=hh<24 et 0<=mm<60."
 MSG_ZH[$MSG_INVALID_TIME]="无效的时间 '%1'. 输入的格式必须为 hh:mm  0<=hh<24 且 0<=mm<60."
+MSG_IT[$MSG_INVALID_TIME]="Orario non valido '%1'. L'input deve essere nel formato hh:mm e 0<=hh<24 e 0<=mm<60."
+MSG_ES[$MSG_INVALID_TIME]="Hora inválida '%1'. La entrada debe estar en el formato hh:mm y 0<=hh<24 y 0<=mm<60."
 
 MSG_RUNASROOT=$((SCNT++))
 MSG_EN[$MSG_RUNASROOT]="$MYSELF has to be started as root. Try 'sudo %1%2'."
@@ -858,10 +906,17 @@ MSG_DE[$MSG_RUNASROOT]="$MYSELF muss als root gestartet werden. Benutze 'sudo %1
 MSG_FI[$MSG_RUNASROOT]="$MYSELF tulee käynnistää root-oikeuksin. Käynnistä 'sudo %1%2'."
 MSG_FR[$MSG_RUNASROOT]="$MYSELF doit être démarré en tant que root. Utilisez 'sudo %1%2'."
 MSG_ZH[$MSG_RUNASROOT]="$MYSELF 必须以root身份开启. 请尝试 'sudo %1%2'."
+MSG_IT[$MSG_RUNASROOT]="$MYSELF deve essere avviato come root. Prova 'sudo %1%2'."
+MSG_ES[$MSG_RUNASROOT]="$MYSELF debe iniciarse como root. Intente 'sudo %1%2'."
 
 MSG_SYSTEMD_NOT_INSTALLED=$((SCNT++))
 MSG_EN[$MSG_SYSTEMD_NOT_INSTALLED]="No systemd configuration found."
 MSG_DE[$MSG_SYSTEMD_NOT_INSTALLED]="Keine systemd Konfiguration gefunden."
+MSG_FI[$MSG_SYSTEMD_NOT_INSTALLED]="Systemd-konfiguraatiota ei löydy."
+MSG_FR[$MSG_SYSTEMD_NOT_INSTALLED]="Aucune configuration systemd trouvée."
+MSG_ZH[$MSG_SYSTEMD_NOT_INSTALLED]="未找到systemd配置文件."
+MSG_IT[$MSG_SYSTEMD_NOT_INSTALLED]="Nessuna configurazione systemd trovata."
+MSG_ES[$MSG_SYSTEMD_NOT_INSTALLED]="No se encontró configuración de systemd."
 
 DESCRIPTION_INSTALLATION=$((SCNT++))
 MSG_EN[$DESCRIPTION_INSTALLATION]="${NL}$RASPIBACKUP_NAME allows to plug in custom extensions which are called before and after the backup process. \
@@ -869,7 +924,9 @@ There exist sample extensions which report the memory usage, CPU temperature and
 For details see${NL}https://www.linux-tips-and-tricks.de/en/raspibackupcategoryy/443-raspibackup-extensions."
 MSG_DE[$DESCRIPTION_INSTALLATION]="${NL}$RASPIBACKUP_NAME erlaubt selbstgeschriebene Erweiterungen vor und nach dem Backupprozess aufzurufen. \
 Es gibt Beispielerweiterungen die die Speicherauslastung, die CPU Temperatur sowie die Speicherplatzbenutzung der Backuppartition anzeigen. \
-Für weitere Details siehe${NL}https://www.linux-tips-and-tricks.de/de/13-raspberry/442-raspibackup-erweiterungen."
+Für weitere Details siehe${NL}https://www.linux-tips
+
+-and-tricks.de/de/13-raspberry/442-raspibackup-erweiterungen."
 MSG_FI[$DESCRIPTION_INSTALLATION]="${NL}$RASPIBACKUP_NAME tukee lisäosia, joiden toimintoja voidaan suorittaa ennen ja jälkeen varmuuskopioinnin. \
 Mukana tulevat näytelisäosat esittävät prosessorin lämpötilan sekä tietoja muistin ja varmuuskopiointilevyn käytöstä. \
 ${NL}Lue lisätietoja osoitteesta https://www.linux-tips-and-tricks.de/en/raspibackupcategoryy/443-raspibackup-extensions."
@@ -879,6 +936,12 @@ ${NL}Pour plus de détails voir https://www.linux-tips-and-tricks.de/en/raspibac
 MSG_ZH[$DESCRIPTION_INSTALLATION]="${NL}$RASPIBACKUP_NAME 允许插入自定义扩展，备份前后均可插入. \
 已有示例扩展报告内存占用,CPU温度和备份硬盘占用. \
 ${NL}详情请 https://www.linux-tips-and-tricks.de/en/raspibackupcategoryy/443-raspibackup-extensions."
+MSG_IT[$DESCRIPTION_INSTALLATION]="${NL}$RASPIBACKUP_NAME consente di collegare estensioni personalizzate che vengono chiamate prima e dopo il processo di backup. \
+Esistono estensioni di esempio che segnalano l'utilizzo della memoria, la temperatura della CPU e l'utilizzo del disco della partizione di backup. \
+Per i dettagli vedi ${NL}https://www.linux-tips-and-tricks.de/en/raspibackupcategoryy/443-raspibackup-extensions."
+MSG_ES[$DESCRIPTION_INSTALLATION]="${NL}$RASPIBACKUP_NAME permite conectar extensiones personalizadas que se ejecutan antes y después del proceso de copia de seguridad. \
+Existen extensiones de muestra que informan sobre el uso de memoria, la temperatura de la CPU y el uso del disco de la partición de respaldo. \
+Para más detalles vea ${NL}https://www.linux-tips-and-tricks.de/en/raspibackupcategoryy/443-raspibackup-extensions."
 
 DESCRIPTION_COMPRESS=$((SCNT++))
 MSG_EN[$DESCRIPTION_COMPRESS]="${NL}$RASPIBACKUP_NAME can compress dd and tar backups to reduce the size of the backup. Please note this will increase backup time and will heaten the CPU. \
@@ -896,6 +959,12 @@ https://www.linux-tips-and-tricks.de/en/faq#a16."
 MSG_ZH[$DESCRIPTION_COMPRESS]="${NL}$RASPIBACKUP_NAME 可以压缩 dd和tar备份文件. 但是这会在备份期间增加备份时间和使CPU升温. \
 勾选 $FILE_TO_INSTALL, 开启压缩. \
 详情见 https://www.linux-tips-and-tricks.de/en/faq#a16."
+MSG_IT[$DESCRIPTION_COMPRESS]="${NL}$RASPIBACKUP_NAME può comprimere i backup dd e tar per ridurne le dimensioni. Nota che questo aumenterà il tempo di backup e riscalderà la CPU. \
+Nota un'opzione di $FILE_TO_INSTALL che ridurrà anche la dimensione di un backup dd. \
+Per i dettagli vedi https://www.linux-tips-and-tricks.de/en/faq#a16."
+MSG_ES[$DESCRIPTION_COMPRESS]="${NL}$RASPIBACKUP_NAME puede comprimir copias de seguridad dd y tar para reducir el tamaño de la copia de seguridad. Tenga en cuenta que esto aumentará el tiempo de copia de seguridad y calentará la CPU. \
+Tenga en cuenta una opción de $FILE_TO_INSTALL que también reducirá el tamaño de una copia de seguridad dd. \
+Para más detalles vea https://www.linux-tips-and-tricks.de/en/faq#a16."
 
 DESCRIPTION_CRON=$((SCNT++))
 MSG_EN[$DESCRIPTION_CRON]="${NL}$RASPIBACKUP_NAME should be started on a regular base when the initial configuration and backup and restore testing was done. \
