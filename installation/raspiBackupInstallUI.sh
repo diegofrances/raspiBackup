@@ -977,12 +977,20 @@ MSG_FR[$DESCRIPTION_CRON]="${NL}$RASPIBACKUP_NAME doit être démarré réguliè
 Configurez la sauvegarde à exécuter quotidiennement ou hebdomadairement. Pour d'autres intervalles de sauvegardes vous devez modifier manuellement le fichier /etc/cron.d/raspiBackup ."
 MSG_ZH[$DESCRIPTION_CRON]="${NL}$RASPIBACKUP_NAME 会在完成初始配置以及备份和恢复测试后定期启动. \
 配置每天或每周创建备份。对于其他备份间隔，您必须手动修改/etc/cron.d/raspiBackup."
+MSG_IT[$DESCRIPTION_CRON]="${NL}$RASPIBACKUP_NAME dovrebbe essere avviato regolarmente quando la configurazione iniziale e il test di backup e ripristino sono stati completati. \
+Configura il backup per essere creato giornalmente o settimanalmente. Per altri intervalli di backup, è necessario modificare manualmente /etc/cron.d/raspiBackup."
+MSG_ES[$DESCRIPTION_CRON]="${NL}$RASPIBACKUP_NAME debe iniciarse regularmente una vez que se haya realizado la configuración inicial y las pruebas de respaldo y restauración. \
+Configure el respaldo para que se cree diariamente o semanalmente. Para otros intervalos de respaldo, debe modificar manualmente /etc/cron.d/raspiBackup."
 
 DESCRIPTION_SYSTEMD=$((SCNT++))
 MSG_EN[$DESCRIPTION_SYSTEMD]="${NL}$RASPIBACKUP_NAME should be started on a regular base when the initial configuration and backup and restore testing was done. \
 Configure the backup to be created daily or weekly. For other backup intervals you have to modify /etc/systemd/system/raspiBackup.timer manually."
 MSG_DE[$DESCRIPTION_SYSTEMD]="${NL}$RASPIBACKUP_NAME sollte regelmäßig gestartet werden wenn die initiale Konfiguration sowie Backup und Restore Tests beendet sind. \
 Konfiguriere den Backup täglich oder wöchentlich zu erstellen. Für andere Intervalle muss die Datei /etc/systemd/system/raspiBackup.timer manuell geändert werden."
+MSG_IT[$DESCRIPTION_SYSTEMD]="${NL}$RASPIBACKUP_NAME dovrebbe essere avviato regolarmente quando la configurazione iniziale e il test di backup e ripristino sono stati completati. \
+Configura il backup per essere creato giornalmente o settimanalmente. Per altri intervalli di backup, è necessario modificare manualmente /etc/systemd/system/raspiBackup.timer."
+MSG_ES[$DESCRIPTION_SYSTEMD]="${NL}$RASPIBACKUP_NAME debe iniciarse regularmente una vez que se haya realizado la configuración inicial y las pruebas de respaldo y restauración. \
+Configure el respaldo para que se cree diariamente o semanalmente. Para otros intervalos de respaldo, debe modificar manualmente /etc/systemd/system/raspiBackup.timer."
 
 DESCRIPTION_SMARTMODE=$((SCNT++))
 MSG_EN[$DESCRIPTION_SMARTMODE]="${NL}There exist two different ways to define the number of backups. Just by defining the maximum number of backups to keep or \
@@ -995,6 +1003,10 @@ MSG_FR[$DESCRIPTION_SMARTMODE]="${NL}Il existe deux méthodes pour définir le n
 Une description détaillée de la stratégie est disponible sur https://www.linux-tips-and-tricks.de/en/smart-recycle/."
 MSG_ZH[$DESCRIPTION_SMARTMODE]="${NL}当前有两种方法定义备份数量:定义最大备份数或者用只能备份策略,策略详情: \
 ${NL} https://www.linux-tips-and-tricks.de/en/smart-recycle/."
+MSG_IT[$DESCRIPTION_SMARTMODE]="${NL}Esistono due modi diversi per definire il numero di backup. Semplicemente definendo il numero massimo di backup da conservare oppure \
+utilizzando la strategia di backup intelligente. Vedi https://www.linux-tips-and-tricks.de/en/smart-recycle/ per i dettagli sulla strategia."
+MSG_ES[$DESCRIPTION_SMARTMODE]="${NL}Existen dos formas diferentes de definir el número de copias de seguridad. Simplemente definiendo el número máximo de copias de seguridad a conservar o \
+utilizando la estrategia de copia de seguridad inteligente. Vea https://www.linux-tips-and-tricks.de/en/smart-recycle/ para obtener detalles sobre la estrategia."
 
 DESCRIPTION_MESSAGEDETAIL=$((SCNT++))
 MSG_EN[$DESCRIPTION_MESSAGEDETAIL]="${NL}$RASPIBACKUP_NAME can either be very verbose or just write important messages. \
@@ -1007,6 +1019,10 @@ MSG_FR[$DESCRIPTION_MESSAGEDETAIL]="${NL}$RASPIBACKUP_NAME peut écrire de nombr
 Il est logique de les activer tous lors de la première installation de $RASPIBACKUP_NAME Plus tard, ils peuvent être réduits aux plus importants."
 MSG_ZH[$DESCRIPTION_MESSAGEDETAIL]="${NL}$RASPIBACKUP_NAME 可以非常详细或者只显示重要信息. \
 通常第一次安装$RASPIBACKUP_NAME后打开所有选项是有意义的，随后你可切换至只写入重要信息."
+MSG_IT[$DESCRIPTION_MESSAGEDETAIL]="${NL}Esistono due modi diversi per definire il numero di backup. Semplicemente definendo il numero massimo di backup da conservare oppure \
+utilizzando la strategia di backup intelligente. Vedi https://www.linux-tips-and-tricks.de/en/smart-recycle/ per i dettagli sulla strategia."
+MSG_ES[$DESCRIPTION_MESSAGEDETAIL]="${NL}Existen dos formas diferentes de definir el número de copias de seguridad. Simplemente definiendo el número máximo de copias de seguridad a conservar o \
+utilizando la estrategia de copia de seguridad inteligente. Vea https://www.linux-tips-and-tricks.de/en/smart-recycle/ para obtener detalles sobre la estrategia."
 
 DESCRIPTION_STARTSTOP=$((SCNT++))
 MSG_EN[$DESCRIPTION_STARTSTOP]="${NL}Before and after creating a backup important services should be stopped and started. Add the required services separated by a space which should be stopped in the correct order. \
@@ -1019,11 +1035,13 @@ MSG_FR[$DESCRIPTION_STARTSTOP]="${NL}Avant et après une sauvegarde, tous les se
 Les services sont redémarrés dans l'ordre inverse après la sauvegarde. Vous trouverez plus de détails sur https://www.linux-tips-and-tricks.de/de/faq#a18."
 MSG_ZH[$DESCRIPTION_STARTSTOP]="${NL}备份前，重要服务会被停止，备份后自动重启服务.按顺序添加需要停止的服务，多个服务用空格分割 \
 服务会在备份完成后按反序重启，详情见 https://www.linux-tips-and-tricks.de/en/faq#a18."
+MSG_IT[$DESCRIPTION_STARTSTOP]="${NL}Prima e dopo la creazione di un backup è necessario fermare e avviare i servizi importanti. Aggiungi i servizi necessari separati da spazi che devono essere fermati nell'ordine corretto. \
+I servizi saranno avviati in ordine inverso quando il backup sarà completato. Per ulteriori dettagli consulta https://www.linux-tips-and-tricks.de/en/faq#a18."
+MSG_ES[$DESCRIPTION_STARTSTOP]="${NL}Antes y después de crear una copia de seguridad, se deben detener y reiniciar los servicios importantes. Agrega los servicios requeridos separados por espacios que deben detenerse en el orden correcto. \
+Los servicios se reiniciarán en orden inverso una vez finalizada la copia de seguridad. Para más detalles, consulta https://www.linux-tips-and-tricks.de/en/faq#a18."
 
 DESCRIPTION_STARTSTOP_SEQUENCE=$((SCNT++))
 MSG_EN[$DESCRIPTION_STARTSTOP_SEQUENCE]="${NL}Select step by step every service which should be stopped first, second, third and so on and confirm every single service with <Ok> until there is no service any more. \
-MSG_IT[$DESCRIPTION_STARTSTOP_SEQUENCE]=${NL}Selezionare i servizi uno alla volta poiché devono essere fermati prima del backup e confermare ogni servizio individuale con <Conferma> fino a quando nessun altro servizio viene visualizzato. L'ordine corrente è visualizzato dall'alto verso il basso. Troverai maggiori dettagli su https://www.linux-tips-and-tricks.de/de/faq#a18.
-MSG_ES[$DESCRIPTION_STARTSTOP_SEQUENCE]=${NL}Seleccione los servicios uno por uno ya que deben detenerse antes de la copia de seguridad y confirme cada servicio individual con <Confirmar> hasta que no se muestre ningún otro servicio. El orden actual se muestra de arriba a abajo. Puede encontrar más detalles en https://www.linux-tips-and-tricks.de/de/faq#a18.
 Actual sequence is displayed top down. \
 For further details see https://www.linux-tips-and-tricks.de/en/faq#a18."
 MSG_DE[$DESCRIPTION_STARTSTOP_SEQUENCE]="${NL}Wähle der Reihe nach die Services aus wie sie vor dem Backup gestoppt werden sollen und bestätige jeden einzelnen Service mit <Bestätigen> bis keine Services mehr angezeigt werden. \
@@ -1038,11 +1056,15 @@ Vous trouverez plus de détails sur https://www.linux-tips-and-tricks.de/de/faq#
 MSG_ZH[$DESCRIPTION_STARTSTOP_SEQUENCE]="${NL}一个一个的选择需要停止的服务,按<Ok>确定. \
 停止顺序自上而下. \
 ${NL}详情见 https://www.linux-tips-and-tricks.de/en/faq#a18."
+MSG_IT[$DESCRIPTION_STARTSTOP_SEQUENCE]="${NL}Seleziona passo dopo passo ogni servizio che deve essere fermato prima, secondo, terzo e così via e conferma ogni singolo servizio con <Ok> fino a quando non ci sono più servizi nella lista. \
+L'attuale sequenza è visualizzata dall'alto verso il basso. \
+Per ulteriori dettagli consulta https://www.linux-tips-and-tricks.de/en/faq#a18."
+MSG_ES[$DESCRIPTION_STARTSTOP_SEQUENCE]="${NL}Selecciona paso a paso cada servicio que debe detenerse primero, segundo, tercero y así sucesivamente, y confirma cada servicio con <Ok> hasta que no haya más servicios en la lista. \
+La secuencia actual se muestra de arriba hacia abajo. \
+Para más detalles, consulta https://www.linux-tips-and-tricks.de/en/faq#a18."
 
 DESCRIPTION_STARTSTOP_SERVICES=$((SCNT++))
 MSG_EN[$DESCRIPTION_STARTSTOP_SERVICES]="${NL}Select all services in sequence how they should be stopped before the backup starts. \
-MSG_IT[$DESCRIPTION_STARTSTOP_SERVICES]=${NL}Seleziona tutti i servizi in sequenza come devono essere fermati prima che inizi il backup. La sequenza corrente viene visualizzata. Saranno avviati di nuovo in sequenza inversa quando il backup sarà terminato.
-MSG_ES[$DESCRIPTION_STARTSTOP_SERVICES]=${NL}Seleccione todos los servicios en secuencia cómo deben detenerse antes de que comience la copia de seguridad. La secuencia actual se muestra. Se iniciarán nuevamente en secuencia inversa cuando la copia de seguridad haya finalizado.
 Current sequence is displayed.\
 They will be started in reverse sequence again when the backup finished."
 MSG_DE[$DESCRIPTION_STARTSTOP_SERVICES]="${NL}Wähle alle wichtigen Services aus die vor dem Backup gestoppt werden sollen. \
@@ -1059,8 +1081,6 @@ MSG_ZH[$DESCRIPTION_STARTSTOP_SERVICES]="${NL}按顺序选择备份开始前应�
 
 DESCRIPTION_PARTITIONS=$((SCNT++))
 MSG_EN[$DESCRIPTION_PARTITIONS]="${NL}Select all partitions which should be included in the backup. \
-MSG_IT[$DESCRIPTION_PARTITIONS]=${NL}Seleziona tutte le partizioni che devono essere incluse nel backup. Nota: Le prime due partizioni devono essere sempre selezionate.
-MSG_ES[$DESCRIPTION_PARTITIONS]=${NL}Seleccione todas las particiones que deben incluirse en la copia de seguridad. Nota: Las dos primeras particiones deben seleccionarse siempre.
 ${NL}${NL}Note: The first two partitions have to be selected all the time."
 MSG_DE[$DESCRIPTION_PARTITIONS]="${NL}Wähle alle Partitionen aus die im Backup enthalten sein sollen. \
 ${NL}${NL}Hinweis: Die ersten beiden Partitionen müssen immer ausgewählt werden."
@@ -1073,8 +1093,6 @@ ${NL}${NL}注意:前两个分区总会默认被选中."
 
 DESCRIPTION_LANGUAGE=$((SCNT++))
 MSG_EN[$DESCRIPTION_LANGUAGE]="${NL}$RASPIBACKUP_NAME and this installer support following languages as of now. Default language is the system language.\
-MSG_IT[$DESCRIPTION_LANGUAGE]=${NL}$RASPIBACKUP_NAME e questo programma di installazione supportano attualmente le seguenti lingue. La lingua predefinita è la lingua di sistema. Qualsiasi aiuto per aggiungere un'altra lingua è il benvenuto.
-MSG_ES[$DESCRIPTION_LANGUAGE]=${NL}$RASPIBACKUP_NAME y este instalador actualmente admiten los siguientes idiomas. El idioma predeterminado es el idioma del sistema. Cualquier ayuda para agregar otro idioma es bienvenida.
 ${NL}${NL}Any help to add another language is welcome."
 MSG_DE[$DESCRIPTION_LANGUAGE]="${NL}$RASPIBACKUP_NAME und dieser Installer unterstützen momentan folgende Sprachen. Standardsprache ist die Systemsprache.\
 ${NL}${NL}Jede Hilfe eine weitere Sprache dazuzubringen ist herzlich willkommen."
