@@ -1078,6 +1078,12 @@ Ils sont redémarrés dans l'ordre inverse lorsque la sauvegarde est terminée."
 MSG_ZH[$DESCRIPTION_STARTSTOP_SERVICES]="${NL}按顺序选择备份开始前应停止的所有服务. \
 当前序列已显示. \
 备份完成后会按反序重启."
+MSG_IT[$DESCRIPTION_STARTSTOP_SERVICES]="${NL}Seleziona tutti i servizi nell'ordine in cui devono essere fermati prima che inizi il backup. \
+La sequenza attuale è visualizzata. \
+Verranno riavviati in ordine inverso quando il backup sarà completato."
+MSG_ES[$DESCRIPTION_STARTSTOP_SERVICES]="${NL}Selecciona todos los servicios en secuencia como deben ser detenidos antes de que comience la copia de seguridad. \
+Se muestra la secuencia actual. \
+Serán reiniciados en orden inverso una vez que la copia de seguridad haya terminado."
 
 DESCRIPTION_PARTITIONS=$((SCNT++))
 MSG_EN[$DESCRIPTION_PARTITIONS]="${NL}Select all partitions which should be included in the backup. \
@@ -1090,6 +1096,10 @@ MSG_FR[$DESCRIPTION_PARTITIONS]="${NL}Sélectionnez toutes les partitions qui do
 ${NL}${NL}Remarque : les deux premières partitions doivent toujours être sélectionnées."
 MSG_ZH[$DESCRIPTION_PARTITIONS]="${NL}选择所有需要备份的分区. \
 ${NL}${NL}注意:前两个分区总会默认被选中."
+MSG_IT[$DESCRIPTION_PARTITIONS]="${NL}Seleziona tutte le partizioni che devono essere incluse nel backup. \
+${NL}${NL}Nota: Le prime due partizioni devono essere selezionate sempre."
+MSG_ES[$DESCRIPTION_PARTITIONS]="${NL}Selecciona todas las particiones que deben incluirse en la copia de seguridad. \
+${NL}${NL}Nota: Las dos primeras particiones deben estar seleccionadas todo el tiempo."
 
 DESCRIPTION_LANGUAGE=$((SCNT++))
 MSG_EN[$DESCRIPTION_LANGUAGE]="${NL}$RASPIBACKUP_NAME and this installer support following languages as of now. Default language is the system language.\
@@ -1102,6 +1112,10 @@ MSG_FR[$DESCRIPTION_LANGUAGE]="${NL}$RASPIBACKUP_NAME et ce programme d'installa
 ${NL}${NL}Toute aide pour ajouter une autre langue est la bienvenue."
 MSG_ZH[$DESCRIPTION_LANGUAGE]="${NL}$RASPIBACKUP_NAME 目前支持下列语言，默认使用系统语言.\
 ${NL}${NL}欢迎翻译其他语言！."
+MSG_IT[$DESCRIPTION_LANGUAGE]="${NL}$RASPIBACKUP_NAME e questo programma di installazione supportano attualmente le seguenti lingue. La lingua predefinita è quella del sistema.\
+${NL}${NL}È gradita qualsiasi aiuto per aggiungere un'altra lingua."
+MSG_ES[$DESCRIPTION_LANGUAGE]="${NL}$RASPIBACKUP_NAME y este instalador admiten los siguientes idiomas actualmente. El idioma predeterminado es el idioma del sistema.\
+${NL}${NL}Cualquier ayuda para agregar otro idioma es bienvenida."
 
 DESCRIPTION_KEEP=$((SCNT++))
 MSG_EN[$DESCRIPTION_KEEP]="${NL}Enter number of backups to keep. Number hast to be between 1 and 52."
@@ -1109,6 +1123,8 @@ MSG_DE[$DESCRIPTION_KEEP]="${NL}Gib die Anzahl der Beackups die vorzuhalten sind
 MSG_FI[$DESCRIPTION_KEEP]="${NL}Syötä säilytettävien varmuuskopioiden lukumäärä. Numeron tulee olla 1:n ja 52:n väliltä."
 MSG_FR[$DESCRIPTION_KEEP]="${NL}Entrez le nombre de sauvegardes à conserver. Le nombre doit être compris entre 1 et 52."
 MSG_ZH[$DESCRIPTION_KEEP]="${NL}输入保存的备份数,在1和52之间."
+MSG_IT[$DESCRIPTION_KEEP]="${NL}Inserisci il numero di backup da mantenere. Il numero deve essere compreso tra 1 e 52."
+MSG_ES[$DESCRIPTION_KEEP]="${NL}Ingrese el número de copias de seguridad a mantener. El número debe estar entre 1 y 52."
 
 DESCRIPTION_SMART=$((SCNT++))
 MSG_EN[$DESCRIPTION_SMART]="${NL}Enter four numbers separated by spaces to define the smart recycle backup strategy parameters. The numbers define how many daily, weekly, monthly and yearly backups are kept. \
@@ -1121,6 +1137,10 @@ MSG_FR[$DESCRIPTION_SMART]="${NL}Saisissez les paramètres de la stratégie inte
 Des détails sur la stratégie de sauvegarde sont disponibles sur https://www.linux-tips-and-tricks.de/de/rotationsstrategy/."
 MSG_ZH[$DESCRIPTION_SMART]="${NL}输入四个数字定义备份策略. 这决定备份周期. \
 详情见 https://www.linux-tips-and-tricks.de/en/smart-recycle/."
+MSG_IT[$DESCRIPTION_SMART]="${NL}Inserisci quattro numeri separati da spazi per definire i parametri della strategia intelligente di riciclo del backup. I numeri definiscono quanti backup giornalieri, settimanali, mensili e annuali vengono conservati. \
+Per ulteriori dettagli sulla strategia di backup, consulta https://www.linux-tips-and-tricks.de/en/smart-recycle/."
+MSG_ES[$DESCRIPTION_SMART]="${NL}Ingrese cuatro números separados por espacios para definir los parámetros de la estrategia de reciclaje inteligente de copias de seguridad. Los números definen cuántas copias de seguridad diarias, semanales, mensuales y anuales se mantienen. \
+Para obtener más detalles sobre la estrategia de copia de seguridad, consulta https://www.linux-tips-and-tricks.de/en/smart-recycle/."
 
 DESCRIPTION_ERROR=$((SCNT++))
 MSG_EN[$DESCRIPTION_ERROR]="Unrecoverable error occurred. Check logfile $LOG_FILE."
@@ -1128,6 +1148,8 @@ MSG_DE[$DESCRIPTION_ERROR]="Ein nicht behebbarer Fehler ist aufgetreten. Siehe L
 MSG_FI[$DESCRIPTION_ERROR]="Tapahtui peruuttamaton virhe. Tarkista lokitiedosto $LOG_FILE."
 MSG_FR[$DESCRIPTION_ERROR]="Une erreur irrécupérable s'est produite. Voir le fichier journal $LOG_FILE."
 MSG_ZH[$DESCRIPTION_ERROR]="发生了无法恢复的错误。检查日志文件$LOG_FILE."
+MSG_IT[$DESCRIPTION_ERROR]="Si è verificato un errore irreversibile. Controlla il file di registro $LOG_FILE."
+MSG_ES[$DESCRIPTION_ERROR]="Se produjo un error irreparable. Verifica el archivo de registro $LOG_FILE."
 
 DESCRIPTION_BACKUPPATH=$((SCNT++))
 MSG_EN[$DESCRIPTION_BACKUPPATH]="${NL}On the backup path a partition has to be be mounted which is used by $FILE_TO_INSTALL to store the backups. \
@@ -1140,6 +1162,10 @@ MSG_FR[$DESCRIPTION_BACKUPPATH]="${NL}Vous devez indiquer le chemin de sauvegard
 Cela peut être une partition locale ou une partition distante(ex:samba)."
 MSG_ZH[$DESCRIPTION_BACKUPPATH]="${NL}在备份路径必须挂载一个分区，用来为$FILE_TO_INSTALL存储备份文件. \
 可以是本地磁盘或者云端磁盘."
+MSG_IT[$DESCRIPTION_BACKUPPATH]="${NL}Nel percorso di backup deve essere montata una partizione utilizzata da $FILE_TO_INSTALL per memorizzare i backup. \
+Questa può essere una partizione locale o una partizione remota montata."
+MSG_ES[$DESCRIPTION_BACKUPPATH]="${NL}En la ruta de la copia de seguridad debe estar montada una partición utilizada por $FILE_TO_INSTALL para almacenar las copias de seguridad. \
+Puede ser una partición local o una partición remota montada."
 
 DESCRIPTION_BACKUPMODE=$((SCNT++))
 MSG_EN[$DESCRIPTION_BACKUPMODE]="${NL}Preferred mode is the normal backup mode. If you need to save more than two partitions with tar or rsync use the partition oriented mode. \
@@ -1152,6 +1178,10 @@ MSG_FR[$DESCRIPTION_BACKUPMODE]="${NL}Le mode recommandé est le mode de sauvega
 Vous devez choisir le mode normal si vous souhaitez une sauvegarde dd. La norme est de ne sauvegarder que les deux premières partitions, mais toute partition supplémentaire peut être ajoutée."
 MSG_ZH[$DESCRIPTION_BACKUPMODE]="${NL}预设的是常规备份模式, 若想用tar 或rsync备份2个以上分区，请选择分区导向模式. \
 默认只备份前两个分区，但是其他分区也可以自定义."
+MSG_IT[$DESCRIPTION_BACKUPMODE]="${NL}La modalità preferita è la modalità di backup normale. Se è necessario salvare più di due partizioni con tar o rsync, utilizzare la modalità orientata alle partizioni. \
+Utilizzare la modalità normale e il backup dd se si necessita di un backup dd. Per impostazione predefinita, vengono eseguite le copie di backup delle prime due partizioni, ma è possibile aggiungere qualsiasi altra partizione."
+MSG_ES[$DESCRIPTION_BACKUPMODE]="${NL}El modo preferido es el modo de copia de seguridad normal. Si necesita guardar más de dos particiones con tar o rsync, utilice el modo orientado a particiones. \
+Utilice el modo normal y copia de seguridad dd si necesita una copia de seguridad dd. El valor predeterminado es hacer copias de seguridad solo de las dos primeras particiones, pero es posible agregar cualquier partición adicional."
 
 DESCRIPTION_BACKUPTYPE=$((SCNT++))
 MSG_EN[$DESCRIPTION_BACKUPTYPE]="${NL}rsync is the suggested backuptype because when using hardlinks from EXT3/4 filesystem it's fast because only changed or new files will be saved. \
