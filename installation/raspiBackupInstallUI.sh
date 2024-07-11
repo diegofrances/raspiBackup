@@ -1213,6 +1213,18 @@ MSG_ZH[$DESCRIPTION_BACKUPTYPE]="${NL}rsync是建议的备份方法.因为ETX3/4
 dd和tar模式下生成的备份可以被压缩. \
 ${NL}${NL}更多备份模式类型见:https://www.linux-tips-and-tricks.de/en/backup#butypes. \
 ${NL}更多dd模式详情见 https://www.linux-tips-and-tricks.de/en/faq#a16"
+MSG_IT[$DESCRIPTION_BACKUPTYPE]="${NL}rsync è il tipo di backup consigliato perché, utilizzando hardlink dal filesystem EXT3/4, è veloce poiché verranno salvati solo i file modificati o nuovi. \
+tar dovrebbe essere utilizzato se il filesystem di backup non è EXT3/4, ad esempio una condivisione samba montata da remoto. Non utilizzare un filesystem FAT32 perché la dimensione massima del file è di 4GB. \
+dd dovrebbe essere utilizzato se si desidera ripristinare il backup su un sistema operativo Windows. \
+i backup dd e tar possono essere compressi. \
+Per ulteriori dettagli sui tipi di backup vedi${NL}https://www.linux-tips-and-tricks.de/en/backup#butypes. \
+Per ulteriori dettagli sull'opzione per dd vedi${NL}https://www.linux-tips-and-tricks.de/en/faq#a16"
+MSG_ES[$DESCRIPTION_BACKUPTYPE]="${NL}rsync es el tipo de respaldo sugerido porque al usar enlaces duros del sistema de archivos EXT3/4 es rápido porque solo se guardarán los archivos nuevos o cambiados. \
+tar debe ser utilizado si el sistema de archivos de respaldo no es EXT3/4, por ejemplo, una unidad remota montada por samba. No use un sistema de archivos FAT32 porque el tamaño máximo de archivo es de 4GB. \
+dd debe ser utilizado si desea restaurar el respaldo en un sistema operativo Windows. \
+los respaldos dd y tar pueden ser comprimidos. \
+Para más detalles sobre los tipos de respaldo vea${NL}https://www.linux-tips-and-tricks.de/en/backup#butypes. \
+Para más detalles sobre la opción de dd vea${NL}https://www.linux-tips-and-tricks.de/en/faq#a16"
 
 DESCRIPTION_MAIL_PROGRAM=$((SCNT++))
 MSG_EN[$DESCRIPTION_MAIL_PROGRAM]="Select the mail program to use to send notification eMails."
@@ -1220,6 +1232,8 @@ MSG_DE[$DESCRIPTION_MAIL_PROGRAM]="Wähle das Mailprogramm aus welches zum Verse
 MSG_FI[$DESCRIPTION_MAIL_PROGRAM]="Valitse sähköpostisovellus ilmoitussähköpostien lähettämiseen."
 MSG_FR[$DESCRIPTION_MAIL_PROGRAM]="Sélectionnez le programme de messagerie qui doit être utilisé pour envoyer des notifications."
 MSG_ZH[$DESCRIPTION_MAIL_PROGRAM]="选择发送邮件的程序."
+MSG_IT[$DESCRIPTION_MAIL_PROGRAM]="Seleziona il programma di posta da utilizzare per inviare email di notifica."
+MSG_ES[$DESCRIPTION_MAIL_PROGRAM]="Seleccione el programa de correo para usar para enviar correos electrónicos de notificación."
 
 DESCRIPTION_EMAIL=$((SCNT++))
 MSG_EN[$DESCRIPTION_EMAIL]="Enter the eMail address to send notifications to. Enter no eMail address to disable notifications."
@@ -1227,6 +1241,8 @@ MSG_DE[$DESCRIPTION_EMAIL]="Gibt die eMail Adresse ein die Benachrichtigungen er
 MSG_FI[$DESCRIPTION_EMAIL]="Syötä sähköpostiosoite, johon ilmoitukset lähetetään. Jos et halua ilmoituksia, älä syötä lainkaan sähköpostiosoitetta."
 MSG_FR[$DESCRIPTION_EMAIL]="Saisissez l'adresse e-mail pour recevoir les notifications. Aucune adresse e-mail désactive les notifications."
 MSG_ZH[$DESCRIPTION_EMAIL]="输入邮件地址，留空则禁用邮件通知."
+MSG_IT[$DESCRIPTION_EMAIL]="Inserisci l'indirizzo email a cui inviare le notifiche. Non inserire alcun indirizzo email per disabilitare le notifiche."
+MSG_ES[$DESCRIPTION_EMAIL]="Ingrese la dirección de correo electrónico para enviar notificaciones. No ingrese ninguna dirección de correo electrónico para deshabilitar las notificaciones."
 
 TITLE_ERROR=$((SCNT++))
 MSG_EN[$TITLE_ERROR]="Error"
@@ -1234,6 +1250,8 @@ MSG_DE[$TITLE_ERROR]="Fehler"
 MSG_FI[$TITLE_ERROR]="Virhe"
 MSG_FR[$TITLE_ERROR]="Erreur"
 MSG_ZH[$TITLE_ERROR]="错误"
+MSG_IT[$TITLE_ERROR]="Errore"
+MSG_ES[$TITLE_ERROR]="Error"
 
 TITLE_FIRST_STEPS=$((SCNT++))
 MSG_EN[$TITLE_FIRST_STEPS]="First steps"
@@ -1241,6 +1259,8 @@ MSG_DE[$TITLE_FIRST_STEPS]="Erste Schritte"
 MSG_FI[$TITLE_FIRST_STEPS]="Ensiaskeleet"
 MSG_FR[$TITLE_FIRST_STEPS]="En premier"
 MSG_ZH[$TITLE_FIRST_STEPS]="第一步"
+MSG_IT[$TITLE_FIRST_STEPS]="Primi passi"
+MSG_ES[$TITLE_FIRST_STEPS]="Primeros pasos"
 
 TITLE_HELP=$((SCNT++))
 MSG_EN[$TITLE_HELP]="Help"
@@ -1248,6 +1268,8 @@ MSG_DE[$TITLE_HELP]="Hilfe"
 MSG_FI[$TITLE_HELP]="Ohje"
 MSG_FR[$TITLE_HELP]="Aide"
 MSG_ZH[$TITLE_HELP]="帮助"
+MSG_IT[$TITLE_HELP]="Aiuto"
+MSG_ES[$TITLE_HELP]="Ayuda"
 
 TITLE_WARNING=$((SCNT++))
 MSG_EN[$TITLE_WARNING]="Warning"
@@ -1255,6 +1277,8 @@ MSG_DE[$TITLE_WARNING]="Warnung"
 MSG_FI[$TITLE_WARNING]="Varoitus"
 MSG_FR[$TITLE_WARNING]="Attention"
 MSG_ZH[$TITLE_WARNING]="警告"
+MSG_IT[$TITLE_WARNING]="Avviso"
+MSG_ES[$TITLE_WARNING]="Advertencia"
 
 TITLE_INFORMATION=$((SCNT++))
 MSG_EN[$TITLE_INFORMATION]="Information"
@@ -1262,6 +1286,8 @@ MSG_DE[$TITLE_INFORMATION]="Information"
 MSG_FI[$TITLE_INFORMATION]="Tietoa"
 MSG_FR[$TITLE_INFORMATION]="Information"
 MSG_ZH[$TITLE_INFORMATION]="信息"
+MSG_IT[$TITLE_INFORMATION]="Informazione"
+MSG_ES[$TITLE_INFORMATION]="Información"
 
 TITLE_VALIDATIONERROR=$((SCNT++))
 MSG_EN[$TITLE_VALIDATIONERROR]="Invalid input"
@@ -1269,6 +1295,8 @@ MSG_DE[$TITLE_VALIDATIONERROR]="Ungültige Eingabe"
 MSG_FI[$TITLE_VALIDATIONERROR]="Virheellinen syöte"
 MSG_FR[$TITLE_VALIDATIONERROR]="Entrée invalide"
 MSG_ZH[$TITLE_VALIDATIONERROR]="无效输入"
+MSG_IT[$TITLE_VALIDATIONERROR]="Input non valido"
+MSG_ES[$TITLE_VALIDATIONERROR]="Entrada no válida"
 
 TITLE_CONFIRM=$((SCNT++))
 MSG_EN[$TITLE_CONFIRM]="Please confirm"
@@ -1276,6 +1304,8 @@ MSG_DE[$TITLE_CONFIRM]="Bitte bestätigen"
 MSG_FI[$TITLE_CONFIRM]="Ole hyvä ja varmista"
 MSG_FR[$TITLE_CONFIRM]="SVP Confirmez"
 MSG_ZH[$TITLE_CONFIRM]="请确认"
+MSG_IT[$TITLE_CONFIRM]="Si prega di confermare"
+MSG_ES[$TITLE_CONFIRM]="Por favor confirme"
 
 MSG_INVALID_BACKUPPATH=$((SCNT++))
 MSG_EN[$MSG_INVALID_BACKUPPATH]="Backup path %1 does not exist"
@@ -1283,6 +1313,8 @@ MSG_DE[$MSG_INVALID_BACKUPPATH]="Sicherungsverzeichnis %1 existiert nicht"
 MSG_FI[$MSG_INVALID_BACKUPPATH]="Polkua %1 ei ole"
 MSG_FR[$MSG_INVALID_BACKUPPATH]="Le répertoire de sauvegarde %1 n'existe pas"
 MSG_ZH[$MSG_INVALID_BACKUPPATH]="备份路径 %1 不存在"
+MSG_IT[$MSG_INVALID_BACKUPPATH]="Il percorso di backup %1 non esiste"
+MSG_ES[$MSG_INVALID_BACKUPPATH]="La ruta de respaldo %1 no existe"
 
 MSG_INVALID_EMAIL=$((SCNT++))
 MSG_EN[$MSG_INVALID_EMAIL]="Invalid eMail address %1"
