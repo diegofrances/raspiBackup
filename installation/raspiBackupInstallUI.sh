@@ -1322,6 +1322,8 @@ MSG_DE[$MSG_INVALID_EMAIL]="Ungültige eMail Adresse %1"
 MSG_FI[$MSG_INVALID_EMAIL]="Virheellinen sähköpostiosoite %1"
 MSG_FR[$MSG_INVALID_EMAIL]="Adresse e-mail invalide %1"
 MSG_ZH[$MSG_INVALID_EMAIL]="邮箱地址无效 %1"
+MSG_IT[$MSG_INVALID_EMAIL]="Indirizzo e-mail non valido %1"
+MSG_ES[$MSG_INVALID_EMAIL]="Dirección de correo electrónico no válida %1"
 
 MSG_LOCAL_BACKUPPATH=$((SCNT++))
 MSG_EN[$MSG_LOCAL_BACKUPPATH]="Backup would be stored on SD card"
@@ -1329,6 +1331,8 @@ MSG_DE[$MSG_LOCAL_BACKUPPATH]="Backup würde auf der SD Karte gespeichert werden
 MSG_FI[$MSG_LOCAL_BACKUPPATH]="Varmuuskopio säilytetään SD-kortilla"
 MSG_FR[$MSG_LOCAL_BACKUPPATH]="La sauvegarde sera enregistrée sur la carte SD"
 MSG_ZH[$MSG_LOCAL_BACKUPPATH]="备份文件将被存储在SD卡"
+MSG_IT[$MSG_LOCAL_BACKUPPATH]="Il backup verrà memorizzato sulla scheda SD"
+MSG_ES[$MSG_LOCAL_BACKUPPATH]="La copia de seguridad se almacenará en la tarjeta SD"
 
 MSG_NAVIGATION=$((SCNT++))
 MSG_EN[$MSG_NAVIGATION]="Cursor keys: Move cursor to next menu item, list item or button${NL}\
@@ -1365,7 +1369,20 @@ ${NL}\
 Cursor keys: Move cursor to next menu or list item${NL}\
 Space key: Select/unselect items in a selection list${NL}\
 Tab key: Jump to buttons at the bottom"
-
+MSG_IT[$MSG_NAVIGATION]="Tasti cursore: Sposta il cursore al prossimo elemento del menu, elemento della lista o pulsante${NL}\
+Tasto spazio: Seleziona/deseleziona elementi in una lista di selezione${NL}\
+Tasto Tab: Salta ai pulsanti in fondo${NL}\
+${NL}\
+Tasti cursore: Sposta il cursore al prossimo elemento del menu o della lista${NL}\
+Tasto spazio: Seleziona/deseleziona elementi in una lista di selezione${NL}\
+Tasto Tab: Salta ai pulsanti in fondo"
+MSG_ES[$MSG_NAVIGATION]="Teclas de cursor: Mueve el cursor al siguiente elemento del menú, elemento de la lista o botón${NL}\
+Tecla de espacio: Selecciona/deselecciona elementos en una lista de selección${NL}\
+Tecla Tab: Salta a los botones en la parte inferior${NL}\
+${NL}\
+Teclas de cursor: Mueve el cursor al siguiente elemento del menú o de la lista${NL}\
+Tecla de espacio: Selecciona/deselecciona elementos en una lista de selección${NL}\
+Tecla Tab: Salta a los botones en la parte inferior"
 
 MSG_ABOUT=$((SCNT++))
 MSG_EN[$MSG_ABOUT]="$GIT_CODEVERSION${NL}\
@@ -1392,7 +1409,17 @@ MSG_ZH[$MSG_ABOUT]="$GIT_CODEVERSION${NL}\
 %1${NL}${NL}\
 此界面提供一个$RASPIBACKUP_NAME的安装引导,${NL}更新和设置页面.${NL}${NL}\
 $RASPIBACKUP_NAME的的详情设置请访问${NL}https://www.linux-tips-and-tricks.de/en/raspibackup#parameters${NL}${NL}\
-获取$RASPIBACKUP_NAME详情请访问:{NL}https://www.linux-tips-and-tricks.de/en/raspibackup "
+获取$RASPIBACKUP_NAME详情请访问:{NL}https://www.linux-tips-and-tricks.de/en/raspibackup"
+MSG_IT[$MSG_ABOUT]="$GIT_CODEVERSION${NL}\
+%1${NL}${NL}\
+Questo strumento fornisce un modo semplice per installare,${NL} aggiornare e configurare $RASPIBACKUP_NAME.${NL}${NL}\
+Visita https://www.linux-tips-and-tricks.de/en/raspibackup#parameters${NL}per i dettagli su tutte le opzioni di configurazione di $RASPIBACKUP_NAME.${NL}${NL}\
+Visita https://www.linux-tips-and-tricks.de/en/raspibackup${NL}per i dettagli su $RASPIBACKUP_NAME."
+MSG_ES[$MSG_ABOUT]="$GIT_CODEVERSION${NL}\
+%1${NL}${NL}\
+Esta herramienta proporciona una manera sencilla de realizar la instalación,${NL} actualización y configuración de $RASPIBACKUP_NAME.${NL}${NL}\
+Visita https://www.linux-tips-and-tricks.de/en/raspibackup#parameters${NL}para obtener detalles sobre todas las opciones de configuración de $RASPIBACKUP_NAME.${NL}${NL}\
+Visita https://www.linux-tips-and-tricks.de/en/raspibackup${NL}para obtener detalles sobre $RASPIBACKUP_NAME."
 
 MSG_FIRST_STEPS=$((SCNT++))
 MSG_EN[$MSG_FIRST_STEPS]="Congratulations! $RASPIBACKUP_NAME installed successfully.${NL}${NL}\
@@ -1445,6 +1472,26 @@ MSG_ZH[$MSG_FIRST_STEPS]="恭喜! $RASPIBACKUP_NAME 安装成功.${NL}${NL}\
    https://www.linux-tips-and-tricks.de/en/raspibackup#parameters${NL}\
 6) 开启定期备份${NL}\
 7) 访问https://www.linux-tips-and-tricks.de/en/backup 获取更多$RASPIBACKUP_NAME信息"
+MSG_IT[$MSG_FIRST_STEPS]="Congratulazioni! $RASPIBACKUP_NAME è stato installato con successo.${NL}${NL}\
+Prossimi passi:${NL}
+1) Avvia $RASPIBACKUP_NAME dalla riga di comando e crea un backup${NL}\
+2) Avvia $RASPIBACKUP_NAME per ripristinare il backup su una scheda SD diversa${NL}\
+3) Verifica che il backup ripristinato funzioni correttamente.${NL}\
+4) Leggi la pagina FAQ https://www.linux-tips-and-tricks.de/en/faq${NL}\
+5) Visita la pagina delle opzioni e perfeziona $RASPIBACKUP_NAME${NL}\
+   https://www.linux-tips-and-tricks.de/en/raspibackup#parameters${NL}\
+6) Abilita il backup regolare con l'installer${NL}\
+7) Visita https://www.linux-tips-and-tricks.de/en/backup per molte altre informazioni su $RASPIBACKUP_NAME"
+MSG_ES[$MSG_FIRST_STEPS]="¡Felicidades! $RASPIBACKUP_NAME se instaló correctamente.${NL}${NL}\
+Próximos pasos:${NL}
+1) Inicia $RASPIBACKUP_NAME en la línea de comandos y crea una copia de seguridad${NL}\
+2) Inicia $RASPIBACKUP_NAME para restaurar la copia de seguridad en una tarjeta SD diferente${NL}\
+3) Verifica que la copia de seguridad restaurada funcione correctamente.${NL}\
+4) Lee la página de preguntas frecuentes https://www.linux-tips-and-tricks.de/en/faq${NL}\
+5) Visita la página de opciones y ajusta $RASPIBACKUP_NAME${NL}\
+   https://www.linux-tips-and-tricks.de/en/raspibackup#parameters${NL}\
+6) Habilita copias de seguridad regulares con el instalador${NL}\
+7) Visita https://www.linux-tips-and-tricks.de/en/backup para obtener más información sobre $RASPIBACKUP_NAME"
 
 MSG_HELP=$((SCNT++))
 MSG_EN[$MSG_HELP]="In case you have any issue or question about $RASPIBACKUP_NAME just use one of the following paths to get help${NL}
