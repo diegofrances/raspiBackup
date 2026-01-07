@@ -1524,6 +1524,18 @@ MSG_ZH[$MSG_HELP]="如果你有任何关于 $RASPIBACKUP_NAME 的问题，请用
 3) 在github上创建issues https://github.com/framps/raspiBackup/issues. 通常选这项!${NL}\
 4) 在 $MYHOMEDOMAIN$上关于$RASPIBACKUP_NAME的页面留言评论{NL}\
 5) 访问$RASPIBACKUP_NAME 的Facebook页面"
+MSG_IT[$MSG_HELP]="In caso di problemi o domande su $RASPIBACKUP_NAME, utilizzare uno dei seguenti percorsi per ottenere assistenza${NL}
+1) Leggere la sezione FAQ all'indirizzo https://www.linux-tips-and-tricks.de/en/faq${NL}\
+2) Visita https://www.linux-tips-and-tricks.de/en/backup per ulteriori informazioni su $RASPIBACKUP_NAME${NL}\
+3) Crea una segnalazione su GitHub https://github.com/framps/raspiBackup/issues. Questa è la mia preferenza${NL}\
+4) Aggiungi commenti su qualsiasi pagina web che tratta di $RASPIBACKUP_NAME su $MYHOMEDOMAIN${NL}\
+5) Visita $RASPIBACKUP_NAME su Facebook"
+MSG_ES[$MSG_HELP]="Si tiene algún problema o pregunta sobre $RASPIBACKUP_NAME, utilice una de las siguientes rutas para obtener ayuda${NL}
+1) Lea la página de FAQ https://www.linux-tips-and-tricks.de/en/faq${NL}\
+2) Visite https://www.linux-tips-and-tricks.de/en/backup para obtener mucha más información sobre $RASPIBACKUP_NAME${NL}\
+3) Cree una incidencia en github https://github.com/framps/raspiBackup/issues. Esa es mi preferencia${NL}\
+4) Añade comentarios en cualquier página web relacionada con $RASPIBACKUP_NAME en $MYHOMEDOMAIN${NL}\
+5) Visita $RASPIBACKUP_NAME en Facebook.
 
 MSG_FIRST_PARTITIONS_NOT_SELECTED=$((SCNT++))
 MSG_EN[$MSG_FIRST_PARTITIONS_NOT_SELECTED]="At least the first two partitions have to be selected."
